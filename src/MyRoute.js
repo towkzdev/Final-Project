@@ -23,7 +23,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { currentUser } from "./axiosroute";
 import { useDispatch } from "react-redux"
-
+import React from "react";
 //Route
 import UserRoute from "./routes/UserRoute";
 import AdminRoute from "./routes/AdminRoute";
@@ -43,9 +43,9 @@ const MyRoute = () => {
                         token: idtoken,
                         username: res.data.username,
                         role: res.data.role,
-                        fname:res.data.fname,
-                        tname:res.data.lname,
-                        schoolid:res.data.schoolid
+                        fname: res.data.fname,
+                        tname: res.data.lname,
+                        schoolid: res.data.schoolid
                     },
                 })
                 console.log(res.data)
@@ -60,9 +60,9 @@ const MyRoute = () => {
         <Routes>
             <Route path="/" element={<App />} />
             <Route path="/contact" element={
-               
+                <UserRoute>
                     <ContactStudent />
-               
+                </UserRoute>
             } />
             <Route path="/screenning/:idcard" element={<UserRoute><ScreenningForm /></UserRoute>} />
             <Route path="/kussi/:idcard" element={<UserRoute><Kussi /></UserRoute>} />
