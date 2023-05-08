@@ -1,0 +1,1 @@
+db.studentdatas.aggregate([{$lookup:{from:"screennings",localField:"stdidcard",foreignField:"idcard",as:"result"}}])

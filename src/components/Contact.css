@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700;900&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+.bg-contact {
+    background-color: whitesmoke;
+    box-shadow:  1px 2px 2px 0px rgb(158, 158, 158) ;
+    border-radius: 20px;
+    padding:25px 15px;
+    margin: 50px 0px;
+}
+
+.bg-2 {
+  background-color: whitesmoke;
+  box-shadow:  1px 2px 1px 0px rgb(158, 158, 158) ;
+  border-radius: 20px;
+  padding:25px 15px;
+  margin-top: 130px;
+}
+
+.bg-3 {
+  background-color: whitesmoke;
+  box-shadow:  1px 2px 1px 0px rgb(158, 158, 158) ;
+  border-radius: 20px;
+  padding:25px 15px;
+  margin-top: 100px;
+}
+
+.search {
+  text-align: center;
+  
+}
+

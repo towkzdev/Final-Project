@@ -1,0 +1,64 @@
+.t-data {
+  color: black;
+  text-align: center;
+}
+
+.data {
+  justify-content: center;
+  display: flex;
+}
+
+.bg-teacher {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 25px 15px;
+  margin-top: 130px;
+}
+
+.bg-img {
+  position: absolute;
+  background-color: bisque;
+  height: 210px;
+  width: 300px;
+  border-radius: 30px;
+  margin-top: 125px;
+  margin-left: 45px;
+}
+
+.img {
+  position: relative;
+}
+
+.bd-img {
+    margin-top: -40px;
+}
+.bd-img2 {
+    margin-top: -40px;
+}
+
+
+.bg-img2 {
+    position: absolute;
+    background-color: bisque;
+    height: 210px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 125px;
+    margin-left: 45px;
+  }
+
+
+.bg-img2 {
+    position: absolute;
+    background-color: pink;
+    height: 210px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 125px;
+    margin-left: 45px;
+  }
+
+  .img2 {
+    position: relative;
+  }
+  

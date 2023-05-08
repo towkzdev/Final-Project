@@ -1,0 +1,11 @@
+.info-bg {
+    margin-top: 45px;
+    background-color: #BBDAC9;
+    border-radius: 13px;
+}
+
+.swal {
+    background-color: rgba(63,255,106,0.69);
+    border: 3px solid white;
+  }
+  

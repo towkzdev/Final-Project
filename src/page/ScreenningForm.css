@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+body{
+  font-family: 'Kanit', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .hd-screen h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hd-screen h1 {
+    font-size: 1.35em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+}
+
+.Screen {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: #f0f3f3;
+  border-radius: 20px;
+}
+
+.ct-screen {
+  padding: 70px;
+}
+.ct1-screen{
+    margin-top: 25px;
+    
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+.btn1 {
+    width: 80px;
+}
+.btn2 {
+  margin-left: 30px;
+  width: 80px;
+}
+.bt-screen p{
+ color: #EF1717;
+}
+.bt-screen {
+    margin-top: 20px;
+    font-size:17px ;
+}
+
+#bg-cb {
+  accent-color: #2D7F55;
+}
