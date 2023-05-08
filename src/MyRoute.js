@@ -23,7 +23,6 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { currentUser } from "./axiosroute";
 import { useDispatch } from "react-redux"
-import React from "react";
 //Route
 import UserRoute from "./routes/UserRoute";
 import AdminRoute from "./routes/AdminRoute";
