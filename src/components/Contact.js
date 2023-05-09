@@ -207,7 +207,8 @@ const Contact = () => {
       </div>
 
       <div className="col-md-12 bg-excel bg-3 shadow">
-        <h4 style={{ textAlign: "center" }}>{studentgrade.length > 0 ? <div> <h4>โรงเรียน {schoolnamevalue.map(item => item.thainame)}</h4> <br /> <h5>{studentgradevalue.map(item => item.grade)} / {studentroomvalue.map(item => item.room)} </h5></div> : "รายชื่อนักเรียน"}</h4><br />
+        <br/>
+        <h4 style={{ textAlign: "center" }}>{studentgrade.length > 0 ? <div> <h4>โรงเรียน {schoolnamevalue.map(item => item.thainame)}</h4> </div> : "รายชื่อนักเรียน"}</h4><br />
         <div></div>
        
           <BootstrapTable striped hover size="sm" noDataIndication={emptyDataMessage}
