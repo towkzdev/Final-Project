@@ -10,7 +10,7 @@ const ShowstudentdataComponent = () => {
     const authtoken = localStorage.token
     const [studentdata, setStudentdata] = useState("");
     const params = useParams()
-    console.log(params.idcard)
+    //console.logparams.idcard)
     useEffect(() => {
         axios.get(`${process.env.REACT_APP_API}/studentdata/${params.idcard}`,
             {
@@ -24,14 +24,14 @@ const ShowstudentdataComponent = () => {
             .catch((err) => alert(err));
     }, [params])
 
-    console.log(studentdata)
+    //console.logstudentdata)
 
     const datestd = moment(studentdata.birthday).format("YYYY-MM-DD");
-    console.log(datestd)
+    //console.logdatestd)
     //search
     const history = useNavigate();
     const Delete = (stdidcard) => {
-        console.log(stdidcard)
+        //console.logstdidcard)
         Swal.fire({
             title: 'ยืนยันการลบ',
             //text: "You won't be able to revert this!",
@@ -73,7 +73,7 @@ const ShowstudentdataComponent = () => {
                 })
             });
     }
-    console.log(studentdata.stdidcard)
+    //console.logstudentdata.stdidcard)
     return (
         <div style={{ marginTop: "110px" }}>
             <div className="d-flex justify-content-center">

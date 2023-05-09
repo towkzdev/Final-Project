@@ -111,7 +111,7 @@ const Kussi_ATS = (props) => {
     const stdage = String(Math.abs(ageDate.getUTCFullYear() - 1970));
     const birthday2 = moment(age).format("MM");
     const a = stdage + birthday2;
-    console.log(a);
+    //console.loga);
     const sex = contact.sex;
     const schoolyear = scoredata.schoolyear
     const term = scoredata.term
@@ -120,2258 +120,2258 @@ const Kussi_ATS = (props) => {
     var autism_group;
     if ((a >= 600 && a <= 711 && autism_dscore === 120 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 119 && sex === "ชาย")) {
        autism_tscore = 95;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 118 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 117 && sex === "ชาย")) {
        autism_tscore = 94;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 116 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 115 && sex === "ชาย")) {
        autism_tscore = 93;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 114 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 113 && sex === "ชาย")) {
        autism_tscore = 92;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 112 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 111 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 110 && sex === "ชาย")) {
        autism_tscore = 91;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 109 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 108 && sex === "ชาย")) {
        autism_tscore = 90;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 107 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 106 && sex === "ชาย")) {
        autism_tscore = 89;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 105 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 104 && sex === "ชาย")) {
        autism_tscore = 88;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 103 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 102 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 101 && sex === "ชาย")) {
        autism_tscore = 87;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 100 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 99 && sex === "ชาย")) {
        autism_tscore = 86;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 98 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 97 && sex === "ชาย")) {
        autism_tscore = 85;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 96 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 95 && sex === "ชาย")) {
        autism_tscore = 84;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 94 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 93 && sex === "ชาย")) {
        autism_tscore = 83;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 92 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 91 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 90 && sex === "ชาย")) {
        autism_tscore = 82;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 89 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 88 && sex === "ชาย")) {
        autism_tscore = 81;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 87 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 86 && sex === "ชาย")) {
        autism_tscore = 80;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 85 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 84 && sex === "ชาย")) {
        autism_tscore = 79;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 83 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 82 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 81 && sex === "ชาย")) {
        autism_tscore = 78;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 80 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 79 && sex === "ชาย")) {
        autism_tscore = 77;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 78 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 77 && sex === "ชาย")) {
        autism_tscore = 76;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 76 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 75 && sex === "ชาย")) {
        autism_tscore = 75;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 74 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 73 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 72 && sex === "ชาย")) {
        autism_tscore = 74;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 71 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 70 && sex === "ชาย")) {
        autism_tscore = 73;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 69 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 68 && sex === "ชาย")) {
        autism_tscore = 72;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 67 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 66 && sex === "ชาย")) {
        autism_tscore = 71;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 65 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 64 && sex === "ชาย")) {
        autism_tscore = 70;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 63 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 62 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 61 && sex === "ชาย")) {
        autism_tscore = 69;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 60 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 59 && sex === "ชาย")) {
        autism_tscore = 68;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 58 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 57 && sex === "ชาย")) {
        autism_tscore = 67;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 56 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 55 && sex === "ชาย")) {
        autism_tscore = 66;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 54 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 53 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 52 && sex === "ชาย")) {
        autism_tscore = 65;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 51 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 50 && sex === "ชาย")) {
        autism_tscore = 64;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 49 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 48 && sex === "ชาย")) {
        autism_tscore = 63;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 47 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 46 && sex === "ชาย")) {
        autism_tscore = 62;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 45 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 44 && sex === "ชาย")) {
        autism_tscore = 61;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 43 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 42 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 41 && sex === "ชาย")) {
        autism_tscore = 60;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 40 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 39 && sex === "ชาย")) {
        autism_tscore = 59;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 38 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 37 && sex === "ชาย")) {
        autism_tscore = 58;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 36 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 35 && sex === "ชาย")) {
        autism_tscore = 57;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 34 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 33 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 32 && sex === "ชาย")) {
        autism_tscore = 56;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 31 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 30 && sex === "ชาย")) {
        autism_tscore = 55;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 29 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 28 && sex === "ชาย")) {
        autism_tscore = 54;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 27 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 26 && sex === "ชาย")) {
        autism_tscore = 53;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 25 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 24 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 23 && sex === "ชาย")) {
        autism_tscore = 52;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 22 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 21 && sex === "ชาย")) {
        autism_tscore = 51;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 20 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 19 && sex === "ชาย")) {
        autism_tscore = 50;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 18 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 17 && sex === "ชาย")) {
        autism_tscore = 49;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 16 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 15 && sex === "ชาย")) {
        autism_tscore = 48;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 14 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 13 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 12 && sex === "ชาย")) {
        autism_tscore = 47;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 11 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 10 && sex === "ชาย")) {
        autism_tscore = 46;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 9 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 8 && sex === "ชาย")) {
        autism_tscore = 45;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 7 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 6 && sex === "ชาย")) {
        autism_tscore = 44;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 5 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 4 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 3 && sex === "ชาย")) {
        autism_tscore = 43;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 2 && sex === "ชาย") || (a >= 600 && a <= 711 && autism_dscore === 1 && sex === "ชาย")) {
        autism_tscore = 42;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if (a >= 600 && a <= 711 && autism_dscore === 0 && sex === "ชาย") {
        autism_tscore = 41;
-      console.log("autism_tscore6-711 = " + autism_tscore);
+      //console.log"autism_tscore6-711 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     }
 
     else if (a >= 800 && a <= 911 && autism_dscore === 120 && sex === "ชาย") {
        autism_tscore = 95;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 119 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 118 && sex === "ชาย")) {
        autism_tscore = 94;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 117 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 116 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 115 && sex === "ชาย")) {
        autism_tscore = 93;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 114 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 113 && sex === "ชาย")) {
        autism_tscore = 92;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 112 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 111 && sex === "ชาย")) {
        autism_tscore = 91;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 110 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 109 && sex === "ชาย")) {
        autism_tscore = 90;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 108 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 107 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 106 && sex === "ชาย")) {
        autism_tscore = 89;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 105 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 104 && sex === "ชาย")) {
        autism_tscore = 88;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 103 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 102 && sex === "ชาย")) {
        autism_tscore = 87;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 101 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 100 && sex === "ชาย")) {
        autism_tscore = 86;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 99 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 98 && sex === "ชาย")) {
        autism_tscore = 85;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 97 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 96 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 95 && sex === "ชาย")) {
        autism_tscore = 84;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 94 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 93 && sex === "ชาย")) {
        autism_tscore = 83;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 92 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 91 && sex === "ชาย")) {
        autism_tscore = 82;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 90 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 89 && sex === "ชาย")) {
        autism_tscore = 81;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 88 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 87 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 86 && sex === "ชาย")) {
        autism_tscore = 80;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 85 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 84 && sex === "ชาย")) {
        autism_tscore = 79;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 83 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 82 && sex === "ชาย")) {
        autism_tscore = 78;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 81 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 80 && sex === "ชาย")) {
        autism_tscore = 77;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 79 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 78 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 77 && sex === "ชาย")) {
        autism_tscore = 76;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 76 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 75 && sex === "ชาย")) {
        autism_tscore = 75;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 74 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 73 && sex === "ชาย")) {
        autism_tscore = 74;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 72 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 71 && sex === "ชาย")) {
        autism_tscore = 73;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 70 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 69 && sex === "ชาย")) {
        autism_tscore = 72;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 68 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 67 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 66 && sex === "ชาย")) {
        autism_tscore = 71;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 65 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 64 && sex === "ชาย")) {
        autism_tscore = 70;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 63 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 62 && sex === "ชาย")) {
        autism_tscore = 69;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 61 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 60 && sex === "ชาย")) {
        autism_tscore = 68;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 59 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 58 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 57 && sex === "ชาย")) {
        autism_tscore = 67;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 56 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 55 && sex === "ชาย")) {
        autism_tscore = 66;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 54 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 53 && sex === "ชาย")) {
        autism_tscore = 65;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 52 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 51 && sex === "ชาย")) {
        autism_tscore = 64;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 50 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 49 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 48 && sex === "ชาย")) {
        autism_tscore = 63;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 47 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 46 && sex === "ชาย")) {
        autism_tscore = 62;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 45 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 44 && sex === "ชาย")) {
        autism_tscore = 61;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 43 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 42 && sex === "ชาย")) {
        autism_tscore = 60;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 41 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 40 && sex === "ชาย")) {
        autism_tscore = 59;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 39 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 38 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 37 && sex === "ชาย")) {
        autism_tscore = 58;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 36 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 35 && sex === "ชาย")) {
        autism_tscore = 57;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 34 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 33 && sex === "ชาย")) {
        autism_tscore = 56;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 32 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 31 && sex === "ชาย")) {
        autism_tscore = 55;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 30 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 29 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 28 && sex === "ชาย")) {
        autism_tscore = 54;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 27 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 26 && sex === "ชาย")) {
        autism_tscore = 53;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 25 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 24 && sex === "ชาย")) {
        autism_tscore = 52;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 23 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 22 && sex === "ชาย")) {
        autism_tscore = 51;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 21 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 20 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 19 && sex === "ชาย")) {
        autism_tscore = 50;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 18 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 17 && sex === "ชาย")) {
        autism_tscore = 49;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 16 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 15 && sex === "ชาย")) {
        autism_tscore = 48;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 14 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 13 && sex === "ชาย")) {
        autism_tscore = 47;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 12 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 11 && sex === "ชาย")) {
        autism_tscore = 46;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 10 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 9 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 8 && sex === "ชาย")) {
        autism_tscore = 45;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 7 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 6 && sex === "ชาย")) {
        autism_tscore = 44;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 5 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 4 && sex === "ชาย")) {
        autism_tscore = 43;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 3 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 2 && sex === "ชาย")) {
        autism_tscore = 42;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 0 && sex === "ชาย") || (a >= 800 && a <= 911 && autism_dscore === 1 && sex === "ชาย")) {
        autism_tscore = 41;
-      console.log("autism_tscore8-911 = " + autism_tscore);
+      //console.log"autism_tscore8-911 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     }
 
     else if (a >= 1000 && a <= 1111 && autism_dscore === 120 && sex === "ชาย") {
        autism_tscore = 91;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 119 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 118 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 117 && sex === "ชาย")) {
        autism_tscore = 90;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 116 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 115 && sex === "ชาย")) {
        autism_tscore = 89;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 114 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 113 && sex === "ชาย")) {
        autism_tscore = 88;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 112 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 111 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 110 && sex === "ชาย")) {
        autism_tscore = 87;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 109 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 108 && sex === "ชาย")) {
        autism_tscore = 86;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 107 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 106 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 105 && sex === "ชาย")) {
        autism_tscore = 85;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 104 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 103 && sex === "ชาย")) {
        autism_tscore = 84;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 102 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 101 && sex === "ชาย")) {
        autism_tscore = 83;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 100 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 99 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 98 && sex === "ชาย")) {
        autism_tscore = 82;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 97 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 96 && sex === "ชาย")) {
        autism_tscore = 81;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 95 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 94 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 93 && sex === "ชาย")) {
        autism_tscore = 80;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 92 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 91 && sex === "ชาย")) {
        autism_tscore = 79;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 90 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 89 && sex === "ชาย")) {
        autism_tscore = 78;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 88 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 87 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 86 && sex === "ชาย")) {
        autism_tscore = 77;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 85 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 84 && sex === "ชาย")) {
        autism_tscore = 76;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 83 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 82 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 81 && sex === "ชาย")) {
        autism_tscore = 75;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 80 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 79 && sex === "ชาย")) {
        autism_tscore = 74;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 78 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 77 && sex === "ชาย")) {
        autism_tscore = 73;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 76 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 75 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 74 && sex === "ชาย")) {
        autism_tscore = 72;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 73 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 72 && sex === "ชาย")) {
        autism_tscore = 71;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 71 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 70 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 69 && sex === "ชาย")) {
        autism_tscore = 70;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 68 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 67 && sex === "ชาย")) {
        autism_tscore = 69;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 66 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 65 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 64 && sex === "ชาย")) {
        autism_tscore = 68;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 63 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 62 && sex === "ชาย")) {
        autism_tscore = 67;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 61 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 60 && sex === "ชาย")) {
        autism_tscore = 66;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 59 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 58 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 57 && sex === "ชาย")) {
        autism_tscore = 65;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 56 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 55 && sex === "ชาย")) {
        autism_tscore = 64;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 54 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 53 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 52 && sex === "ชาย")) {
        autism_tscore = 63;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 51 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 50 && sex === "ชาย")) {
        autism_tscore = 62;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 49 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 48 && sex === "ชาย")) {
        autism_tscore = 61;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 47 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 46 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 45 && sex === "ชาย")) {
        autism_tscore = 60;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 44 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 43 && sex === "ชาย")) {
        autism_tscore = 59;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 42 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 41 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 40 && sex === "ชาย")) {
        autism_tscore = 58;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 39 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 38 && sex === "ชาย")) {
        autism_tscore = 57;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 37 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 36 && sex === "ชาย")) {
        autism_tscore = 56;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 35 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 34 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 33 && sex === "ชาย")) {
        autism_tscore = 55;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 32 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 31 && sex === "ชาย")) {
        autism_tscore = 54;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 30 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 29 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 28 && sex === "ชาย")) {
        autism_tscore = 53;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 27 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 26 && sex === "ชาย")) {
        autism_tscore = 52;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 25 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 24 && sex === "ชาย")) {
        autism_tscore = 51;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 23 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 22 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 21 && sex === "ชาย")) {
        autism_tscore = 50;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 20 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 19 && sex === "ชาย")) {
        autism_tscore = 49;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 18 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 17 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 16 && sex === "ชาย")) {
        autism_tscore = 48;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 15 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 14 && sex === "ชาย")) {
        autism_tscore = 47;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 13 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 12 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 11 && sex === "ชาย")) {
        autism_tscore = 46;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 10 && sex === "ชาย")) {
        autism_tscore = 45;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 9 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 8 && sex === "ชาย")) {
        autism_tscore = 44;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 7 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 6 && sex === "ชาย")) {
        autism_tscore = 43;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 5 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 4 && sex === "ชาย")) {
        autism_tscore = 42;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 3 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 2 && sex === "ชาย")) {
        autism_tscore = 41;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 1 && sex === "ชาย") || (a >= 1000 && a <= 1111 && autism_dscore === 0 && sex === "ชาย")) {
        autism_tscore = 40;
-      console.log("autism_tscore10-11 = " + autism_tscore);
+      //console.log"autism_tscore10-11 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     }
 
     else if (a >= 1200 && a <= 1311 && autism_dscore === 120 && sex === "ชาย") {
        autism_tscore = 93;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 119 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 118 && sex === "ชาย")) {
        autism_tscore = 92;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 117 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 116 && sex === "ชาย")) {
        autism_tscore = 91;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 115 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 114 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 113 && sex === "ชาย")) {
        autism_tscore = 90;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 112 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 111 && sex === "ชาย")) {
        autism_tscore = 89;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 110 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 109 && sex === "ชาย")) {
        autism_tscore = 88;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 108 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 107 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 106 && sex === "ชาย")) {
        autism_tscore = 87;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 105 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 104 && sex === "ชาย")) {
        autism_tscore = 86;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 103 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 102 && sex === "ชาย")) {
        autism_tscore = 85;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 101 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 100 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 99 && sex === "ชาย")) {
        autism_tscore = 84;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 98 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 97 && sex === "ชาย")) {
        autism_tscore = 83;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 96 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 95 && sex === "ชาย")) {
        autism_tscore = 82;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 94 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 93 && sex === "ชาย")) {
        autism_tscore = 81;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 92 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 91 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 90 && sex === "ชาย")) {
        autism_tscore = 80;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 88 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 89 && sex === "ชาย")) {
        autism_tscore = 79;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 87 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 86 && sex === "ชาย")) {
        autism_tscore = 78;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 85 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 84 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 83 && sex === "ชาย")) {
        autism_tscore = 77;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 82 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 81 && sex === "ชาย")) {
        autism_tscore = 76;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 80 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 79 && sex === "ชาย")) {
        autism_tscore = 75;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 78 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 77 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 76 && sex === "ชาย")) {
        autism_tscore = 74;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 75 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 74 && sex === "ชาย")) {
        autism_tscore = 73;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 73 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 72 && sex === "ชาย")) {
        autism_tscore = 72;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 71 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 70 && sex === "ชาย" ) || (a >= 1200 && a <= 1311 && autism_dscore === 69 && sex === "ชาย")) {
        autism_tscore = 71;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 68 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 67 && sex === "ชาย")) {
        autism_tscore = 70;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 66 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 65 && sex === "ชาย")) {
        autism_tscore = 69;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 64 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 63 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 62 && sex === "ชาย")) {
        autism_tscore = 68;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 61 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 60 && sex === "ชาย")) {
        autism_tscore = 67;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 59 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 58 && sex === "ชาย")) {
        autism_tscore = 66;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 57 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 56 && sex === "ชาย")) {
        autism_tscore = 65;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 55 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 54 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 53 && sex === "ชาย")) {
        autism_tscore = 64;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 52 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 51 && sex === "ชาย")) {
        autism_tscore = 63;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 50 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 49 && sex === "ชาย")) {
        autism_tscore = 62;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 48 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 47 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 46 && sex === "ชาย")) {
        autism_tscore = 61;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 45 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 44 && sex === "ชาย")) {
        autism_tscore = 60;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 43 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 42 && sex === "ชาย")) {
        autism_tscore = 59;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 41 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 40 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 39 && sex === "ชาย")) {
        autism_tscore = 58;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 38 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 37 && sex === "ชาย")) {
        autism_tscore = 57;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 36 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 35 && sex === "ชาย")) {
        autism_tscore = 56;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 34 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 32 && sex === "ชาย")) {
        autism_tscore = 55;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 31 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 30 && sex === "ชาย")) {
        autism_tscore = 54;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 29 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 28 && sex === "ชาย")) {
        autism_tscore = 53;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 27 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 26 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 25 && sex === "ชาย")) {
        autism_tscore = 52;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 24 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 23 && sex === "ชาย")) {
        autism_tscore = 51;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 22 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 21 && sex === "ชาย")) {
        autism_tscore = 50;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 20 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 19 && sex === "ชาย")) {
        autism_tscore = 49;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 18 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 17 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 16 && sex === "ชาย")) {
        autism_tscore = 48;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 15 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 14 && sex === "ชาย")) {
        autism_tscore = 47;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 13 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 12 && sex === "ชาย")) {
        autism_tscore = 46;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 11 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 10 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 9 && sex === "ชาย")) {
        autism_tscore = 45;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 8 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 7 && sex === "ชาย")) {
        autism_tscore = 44;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 6 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 5 && sex === "ชาย")) {
        autism_tscore = 43;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 4 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 3 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 2 && sex === "ชาย")) {
        autism_tscore = 42;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 1 && sex === "ชาย") || (a >= 1200 && a <= 1311 && autism_dscore === 0 && sex === "ชาย")) {
        autism_tscore = 41;
-      console.log("autism_tscore12-13 = " + autism_tscore);
+      //console.log"autism_tscore12-13 = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     }
 
     else if (a >= 600 && a <= 711 && autism_dscore >= 107 && sex === "หญิง") {
        autism_tscore = 100;
-      console.log("autism6-711G_tscore = " + autism_tscore);
+      //console.log"autism6-711G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 106 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 105 && sex === "หญิง")) {
        autism_tscore = 99;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 104 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 103 && sex === "หญิง")) {
        autism_tscore = 98;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 102 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 101 && sex === "หญิง")) {
        autism_tscore = 97;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 100 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 99 && sex === "หญิง")) {
        autism_tscore = 96;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 98 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 97 && sex === "หญิง")) {
        autism_tscore = 95;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 96 && sex === "หญิง")) {
        autism_tscore = 94;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 95 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 94 && sex === "หญิง")) {
        autism_tscore = 93;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 93 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 92 && sex === "หญิง")) {
        autism_tscore = 92;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 91 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 90 && sex === "หญิง")) {
        autism_tscore = 91;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 89 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 88 && sex === "หญิง")) {
        autism_tscore = 90;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 87 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 86 && sex === "หญิง")) {
        autism_tscore = 89;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 85 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 84 && sex === "หญิง")) {
        autism_tscore = 88;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 83 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 82 && sex === "หญิง")) {
        autism_tscore = 87;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 81 && sex === "หญิง")) {
        autism_tscore = 86;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 80 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 79 && sex === "หญิง")) {
        autism_tscore = 85;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 78 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 77 && sex === "หญิง")) {
        autism_tscore = 84;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 76 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 75 && sex === "หญิง")) {
        autism_tscore = 83;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 74 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 73 && sex === "หญิง")) {
        autism_tscore = 82;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 72 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 71 && sex === "หญิง")) {
        autism_tscore = 81;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 70 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 69 && sex === "หญิง")) {
        autism_tscore = 80;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 68 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 67 && sex === "หญิง")) {
        autism_tscore = 79;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 66 && sex === "หญิง")) {
        autism_tscore = 78;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 65 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 64 && sex === "หญิง")) {
        autism_tscore = 77;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 63 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 62 && sex === "หญิง")) {
        autism_tscore = 76;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 61 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 60 && sex === "หญิง")) {
        autism_tscore = 75;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 59 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 58 && sex === "หญิง")) {
        autism_tscore = 74;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 57 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 56 && sex === "หญิง")) {
        autism_tscore = 73;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 55 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 54 && sex === "หญิง")) {
        autism_tscore = 72;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 53 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 52 && sex === "หญิง")) {
        autism_tscore = 71;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 51 && sex === "หญิง")) {
        autism_tscore = 70;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 50 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 49 && sex === "หญิง")) {
        autism_tscore = 69;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 48 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 47 && sex === "หญิง")) {
        autism_tscore = 68;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 46 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 45 && sex === "หญิง")) {
        autism_tscore = 67;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 44 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 43 && sex === "หญิง")) {
        autism_tscore = 66;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 42 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 41 && sex === "หญิง")) {
        autism_tscore = 65;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 40 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 39 && sex === "หญิง")) {
        autism_tscore = 64;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 38 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 37 && sex === "หญิง")) {
        autism_tscore = 63;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 36 && sex === "หญิง")) {
        autism_tscore = 62;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 35 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 34 && sex === "หญิง")) {
        autism_tscore = 61;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 33 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 32 && sex === "หญิง")) {
        autism_tscore = 60;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 31 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 30 && sex === "หญิง")) {
        autism_tscore = 59;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 29 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 28 && sex === "หญิง")) {
        autism_tscore = 58;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 27 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 26 && sex === "หญิง")) {
        autism_tscore = 57;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 25 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 24 && sex === "หญิง")) {
        autism_tscore = 56;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 23 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 22 && sex === "หญิง")) {
        autism_tscore = 55;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 21 && sex === "หญิง")) {
        autism_tscore = 54;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 20 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 19 && sex === "หญิง")) {
        autism_tscore = 53;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 18 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 17 && sex === "หญิง")) {
        autism_tscore = 52;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 16 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 15 && sex === "หญิง")) {
        autism_tscore = 51;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 14 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 13 && sex === "หญิง")) {
        autism_tscore = 50;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 12 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 11 && sex === "หญิง")) {
        autism_tscore = 49;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 10 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 9 && sex === "หญิง")) {
        autism_tscore = 48;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 8 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 7 && sex === "หญิง")) {
        autism_tscore = 47;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 6 && sex === "หญิง")) {
        autism_tscore = 46;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 5 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 4 && sex === "หญิง")) {
        autism_tscore = 45;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 3 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 2 && sex === "หญิง")) {
        autism_tscore = 44;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     } else if ((a >= 600 && a <= 711 && autism_dscore === 1 && sex === "หญิง") || (a >= 600 && a <= 711 && autism_dscore === 0 && sex === "หญิง")) {
        autism_tscore = 43;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism6-711G_tscore = " + autism_group);
+      //console.log"autism6-711G_tscore = " + autism_group);
     }
 
     else if (a >= 800 && a <= 911 && autism_dscore >= 112 && sex === "หญิง") {
        autism_tscore = 100;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 111 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 110 && sex === "หญิง")) {
        autism_tscore = 99;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 109 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 108 && sex === "หญิง")) {
        autism_tscore = 98;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 107 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 106 && sex === "หญิง")) {
        autism_tscore = 97;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 105 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 104 && sex === "หญิง")) {
        autism_tscore = 96;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 103 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 102 && sex === "หญิง")) {
        autism_tscore = 95;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 101 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 100 && sex === "หญิง")) {
        autism_tscore = 94;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 99 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 98 && sex === "หญิง")) {
        autism_tscore = 93;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 97 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 96 && sex === "หญิง")) {
        autism_tscore = 92;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 95 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 94 && sex === "หญิง")) {
        autism_tscore = 91;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 93 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 92 && sex === "หญิง")) {
        autism_tscore = 90;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 91 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 90 && sex === "หญิง")) {
        autism_tscore = 89;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 89 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 88 && sex === "หญิง")) {
        autism_tscore = 88;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 87 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 86 && sex === "หญิง")) {
        autism_tscore = 87;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 85 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 84 && sex === "หญิง")) {
        autism_tscore = 86;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 83 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 82 && sex === "หญิง")) {
        autism_tscore = 85;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 81 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 80 && sex === "หญิง")) {
        autism_tscore = 84;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 79 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 78 && sex === "หญิง")) {
        autism_tscore = 83;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 77 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 76 && sex === "หญิง")) {
        autism_tscore = 82;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 75 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 74 && sex === "หญิง")) {
        autism_tscore = 81;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 73 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 72 && sex === "หญิง")) {
        autism_tscore = 80;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 71 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 70 && sex === "หญิง")) {
        autism_tscore = 79;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 69 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 68 && sex === "หญิง")) {
        autism_tscore = 78;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 67 && sex === "หญิง")) {
        autism_tscore = 77;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 66 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 65 && sex === "หญิง")) {
        autism_tscore = 76;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 64 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 63 && sex === "หญิง")) {
        autism_tscore = 75;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 62 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 61 && sex === "หญิง")) {
        autism_tscore = 74;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 60 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 59 && sex === "หญิง")) {
        autism_tscore = 73;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 58 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 57 && sex === "หญิง")) {
        autism_tscore = 72;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 56 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 55 && sex === "หญิง")) {
        autism_tscore = 71;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 54 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 53 && sex === "หญิง")) {
        autism_tscore = 70;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 52 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 51 && sex === "หญิง")) {
        autism_tscore = 69;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 50 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 49 && sex === "หญิง")) {
        autism_tscore = 68;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 48 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 47 && sex === "หญิง")) {
        autism_tscore = 67;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 46 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 45 && sex === "หญิง")) {
        autism_tscore = 66;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 44 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 43 && sex === "หญิง")) {
        autism_tscore = 65;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 42 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 41 && sex === "หญิง")) {
        autism_tscore = 64;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 40 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 39 && sex === "หญิง")) {
        autism_tscore = 63;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 38 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 37 && sex === "หญิง")) {
        autism_tscore = 62;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 36 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 35 && sex === "หญิง")) {
        autism_tscore = 61;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 34 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 33 && sex === "หญิง")) {
        autism_tscore = 60;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 32 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 31 && sex === "หญิง")) {
        autism_tscore = 59;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 30 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 29 && sex === "หญิง")) {
        autism_tscore = 58;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 28 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 27 && sex === "หญิง")) {
        autism_tscore = 57;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 26 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 25 && sex === "หญิง")) {
        autism_tscore = 56;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 24 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 23 && sex === "หญิง")) {
        autism_tscore = 55;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 22 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 21 && sex === "หญิง")) {
        autism_tscore = 54;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 20 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 19 && sex === "หญิง")) {
        autism_tscore = 53;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 18 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 17 && sex === "หญิง")) {
        autism_tscore = 52;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 16 && sex === "หญิง")) {
        autism_tscore = 51;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 15 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 14 && sex === "หญิง")) {
        autism_tscore = 50;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 13 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 12 && sex === "หญิง")) {
        autism_tscore = 49;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 11 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 10 && sex === "หญิง")) {
        autism_tscore = 48;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 9 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 8 && sex === "หญิง")) {
        autism_tscore = 47;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 7 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 6 && sex === "หญิง")) {
        autism_tscore = 46;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 5 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 4 && sex === "หญิง")) {
        autism_tscore = 45;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 3 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 2 && sex === "หญิง")) {
        autism_tscore = 44;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     } else if ((a >= 800 && a <= 911 && autism_dscore === 1 && sex === "หญิง") || (a >= 800 && a <= 911 && autism_dscore === 0 && sex === "หญิง")) {
        autism_tscore = 43;
-      console.log("autism_tscore = " + autism_tscore);
+      //console.log"autism_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism8-911G_tscore = " + autism_group);
+      //console.log"autism8-911G_tscore = " + autism_group);
     }
 
     else if (a >= 1000 && a <= 1111 && autism_dscore >= 105 && sex === "หญิง") {
        autism_tscore = 100;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 104 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 103 && sex === "หญิง")) {
        autism_tscore = 99;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 102 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 101 && sex === "หญิง")) {
        autism_tscore = 98;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 100 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 99 && sex === "หญิง")) {
        autism_tscore = 97;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 98 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 97 && sex === "หญิง")) {
        autism_tscore = 96;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 96 && sex === "หญิง")) {
        autism_tscore = 95;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 95 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 94 && sex === "หญิง")) {
        autism_tscore = 94;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 93 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 92 && sex === "หญิง")) {
        autism_tscore = 93;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 91 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 90 && sex === "หญิง")) {
        autism_tscore = 92;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 89 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 88 && sex === "หญิง")) {
        autism_tscore = 91;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 87 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 86 && sex === "หญิง")) {
        autism_tscore = 90;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 85 && sex === "หญิง")) {
        autism_tscore = 89;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 84 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 83 && sex === "หญิง")) {
        autism_tscore = 88;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 82 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 81 && sex === "หญิง")) {
        autism_tscore = 87;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 80 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 79 && sex === "หญิง")) {
        autism_tscore = 86;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 78 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 77 && sex === "หญิง")) {
        autism_tscore = 85;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 76 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 75 && sex === "หญิง")) {
        autism_tscore = 84;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 74 && sex === "หญิง")) {
        autism_tscore = 83;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 73 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 72 && sex === "หญิง")) {
        autism_tscore = 82;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 71 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 70 && sex === "หญิง")) {
        autism_tscore = 81;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 69 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 68 && sex === "หญิง")) {
        autism_tscore = 80;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 67 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 66 && sex === "หญิง")) {
        autism_tscore = 79;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 65 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 64 && sex === "หญิง")) {
        autism_tscore = 78;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 63 && sex === "หญิง")) {
        autism_tscore = 77;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 62 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 61 && sex === "หญิง")) {
        autism_tscore = 76;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 60 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 59 && sex === "หญิง")) {
        autism_tscore = 75;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 58 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 57 && sex === "หญิง")) {
        autism_tscore = 74;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 56 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 55 && sex === "หญิง")) {
        autism_tscore = 73;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 54 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 53 && sex === "หญิง")) {
        autism_tscore = 72;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 52 && sex === "หญิง")) {
        autism_tscore = 71;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 51 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 50 && sex === "หญิง")) {
        autism_tscore = 70;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 49 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 48 && sex === "หญิง")) {
        autism_tscore = 69;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 47 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 46 && sex === "หญิง")) {
        autism_tscore = 68;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 45 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 44 && sex === "หญิง")) {
        autism_tscore = 67;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 43 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 42 && sex === "หญิง")) {
        autism_tscore = 66;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 41 && sex === "หญิง")) {
        autism_tscore = 65;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 40 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 39 && sex === "หญิง")) {
        autism_tscore = 64;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 38 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 37 && sex === "หญิง")) {
        autism_tscore = 63;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 36 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 35 && sex === "หญิง")) {
        autism_tscore = 62;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 34 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 33 && sex === "หญิง")) {
        autism_tscore = 61;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 32 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 31 && sex === "หญิง")) {
        autism_tscore = 60;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 30 && sex === "หญิง")) {
        autism_tscore = 59;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 29 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 28 && sex === "หญิง")) {
        autism_tscore = 58;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 27 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 26 && sex === "หญิง")) {
        autism_tscore = 57;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 25 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 24 && sex === "หญิง")) {
        autism_tscore = 56;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 23 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 22 && sex === "หญิง")) {
        autism_tscore = 55;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 21 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 20 && sex === "หญิง")) {
        autism_tscore = 54;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 19 && sex === "หญิง")) {
        autism_tscore = 53;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 18 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 17 && sex === "หญิง")) {
        autism_tscore = 52;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 16 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 15 && sex === "หญิง")) {
        autism_tscore = 51;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 14 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 13 && sex === "หญิง")) {
        autism_tscore = 50;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 12 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 11 && sex === "หญิง")) {
        autism_tscore = 49;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 10 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 9 && sex === "หญิง")) {
        autism_tscore = 48;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 8 && sex === "หญิง")) {
        autism_tscore = 47;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 7 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 6 && sex === "หญิง")) {
        autism_tscore = 46;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 5 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 4 && sex === "หญิง")) {
        autism_tscore = 45;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 3 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 2 && sex === "หญิง")) {
        autism_tscore = 44;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1000 && a <= 1111 && autism_dscore === 1 && sex === "หญิง") || (a >= 1000 && a <= 1111 && autism_dscore === 0 && sex === "หญิง")) {
        autism_tscore = 43;
-      console.log("autism10-11G_tscore = " + autism_tscore);
+      //console.log"autism10-11G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     }
 
     else if (a >= 1200 && a <= 1311 && autism_dscore >= 105 && sex === "หญิง") {
        autism_tscore = 100;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 104 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 103 && sex === "หญิง")) {
        autism_tscore = 99;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 102 && sex === "หญิง")) {
        autism_tscore = 98;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 101 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 100 && sex === "หญิง")) {
        autism_tscore = 97;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 99 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 98 && sex === "หญิง")) {
        autism_tscore = 96;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 97 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 96 && sex === "หญิง")) {
        autism_tscore = 95;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 95 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 94 && sex === "หญิง")) {
        autism_tscore = 94;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 93 && sex === "หญิง")) {
        autism_tscore = 93;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 92 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 91 && sex === "หญิง")) {
        autism_tscore = 92;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 90 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 89 && sex === "หญิง")) {
        autism_tscore = 91;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 88 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 87 && sex === "หญิง")) {
        autism_tscore = 90;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 86 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 85 && sex === "หญิง")) {
        autism_tscore = 89;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 84 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 83 && sex === "หญิง")) {
        autism_tscore = 88;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 82 && sex === "หญิง")) {
        autism_tscore = 87;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 81 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 80 && sex === "หญิง")) {
        autism_tscore = 86;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 79 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 78 && sex === "หญิง")) {
        autism_tscore = 85;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 77 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 76 && sex === "หญิง")) {
        autism_tscore = 84;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 75 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 74 && sex === "หญิง")) {
        autism_tscore = 83;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 73 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 72 && sex === "หญิง")) {
        autism_tscore = 82;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 71 && sex === "หญิง")) {
        autism_tscore = 81;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 4;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 70 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 69 && sex === "หญิง")) {
        autism_tscore = 80;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 68 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 67 && sex === "หญิง")) {
        autism_tscore = 79;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 66 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 65 && sex === "หญิง")) {
        autism_tscore = 78;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 64 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 63 && sex === "หญิง")) {
        autism_tscore = 77;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 62 && sex === "หญิง")) {
        autism_tscore = 76;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 61 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 60 && sex === "หญิง")) {
        autism_tscore = 75;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 59 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 58 && sex === "หญิง")) {
        autism_tscore = 74;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 57 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 56 && sex === "หญิง")) {
        autism_tscore = 73;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 55 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 54 && sex === "หญิง")) {
        autism_tscore = 72;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 53 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 52 && sex === "หญิง")) {
        autism_tscore = 71;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 3;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 51 && sex === "หญิง")) {
        autism_tscore = 70;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 50 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 49 && sex === "หญิง")) {
        autism_tscore = 69;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 48 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 47 && sex === "หญิง")) {
        autism_tscore = 68;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 46 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 45 && sex === "หญิง")) {
        autism_tscore = 67;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 44 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 43 && sex === "หญิง")) {
        autism_tscore = 66;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 42 && sex === "หญิง")) {
        autism_tscore = 65;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 41 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 40 && sex === "หญิง")) {
        autism_tscore = 64;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 39 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 38 && sex === "หญิง")) {
        autism_tscore = 63;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 37 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 36 && sex === "หญิง")) {
        autism_tscore = 62;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 35 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 34 && sex === "หญิง")) {
        autism_tscore = 61;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 2;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 33 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 32 && sex === "หญิง")) {
        autism_tscore = 60;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 31 && sex === "หญิง")) {
        autism_tscore = 59;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 30 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 29 && sex === "หญิง")) {
        autism_tscore = 58;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 28 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 27 && sex === "หญิง")) {
        autism_tscore = 57;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 26 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 25 && sex === "หญิง")) {
        autism_tscore = 56;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 24 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 23 && sex === "หญิง")) {
        autism_tscore = 55;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 22 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 21 && sex === "หญิง")) {
        autism_tscore = 54;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 20 && sex === "หญิง")) {
        autism_tscore = 53;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 19 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 18 && sex === "หญิง")) {
        autism_tscore = 52;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 17 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 16 && sex === "หญิง")) {
        autism_tscore = 51;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 15 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 14 && sex === "หญิง")) {
        autism_tscore = 50;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 13 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 12 && sex === "หญิง")) {
        autism_tscore = 49;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 11 && sex === "หญิง")) {
        autism_tscore = 48;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 10 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 9 && sex === "หญิง")) {
        autism_tscore = 47;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 8 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 7 && sex === "หญิง")) {
        autism_tscore = 46;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 6 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 5 && sex === "หญิง")) {
        autism_tscore = 45;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 4 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 3 && sex === "หญิง")) {
        autism_tscore = 44;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 2 && sex === "หญิง") || (a >= 1200 && a <= 1311 && autism_dscore === 1 && sex === "หญิง")) {
        autism_tscore = 43;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     } else if ((a >= 1200 && a <= 1311 && autism_dscore === 0 && sex === "หญิง")) {
        autism_tscore = 42;
-      console.log("autism12-13G_tscore = " + autism_tscore);
+      //console.log"autism12-13G_tscore = " + autism_tscore);
        autism_group = 1;
-      console.log("autism_group = " + autism_group);
+      //console.log"autism_group = " + autism_group);
     }
 
        

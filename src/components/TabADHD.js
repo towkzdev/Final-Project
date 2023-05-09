@@ -24,7 +24,7 @@ const TabADHA = () => {
             })
             .catch((err) => alert(err));
     }, [params]);
-    console.log(adhddata)
+    //console.logadhddata)
 
 
     const history = useNavigate();
@@ -53,7 +53,7 @@ const TabADHA = () => {
     const valueSchoolyear = data => event => {
         setDatascore({ ...datascore, [data]: event.target.value })
     }
-    console.log(datascore)
+    //console.logdatascore)
 
 
 
@@ -67,7 +67,7 @@ const TabADHA = () => {
         const room = adhddata.room
         const idcard = adhddata.stdidcard
         const schoolid = adhddata.schoolid
-        console.log("ค้นหา", grade, room, schoolyear, term, idcard)
+        //console.log"ค้นหา", grade, room, schoolyear, term, idcard)
 
 
         if (schoolyear != null && term != null) {
@@ -107,10 +107,10 @@ const TabADHA = () => {
         } else { alert("เกิดข้อผิดพลาด") }
     }
 
-    console.log(scoreyear)
-    console.log("คะแนนนักเรียน", scorestd)
+    //console.logscoreyear)
+    //console.log"คะแนนนักเรียน", scorestd)
     //const adhd1_dscore = scorestd.adhd1_dscore
-    //console.log(adhd1_dscore , "คะแนน")
+    ////console.logadhd1_dscore , "คะแนน")
     const schoolyear2 = scorestd.schoolyear
     const term2 = scorestd.term
 
@@ -119,15 +119,15 @@ const TabADHA = () => {
         return accumulator + object.adhd1_dscore;
     }, 0);
 
-    console.log(sum)
+    //console.logsum)
     const avg = sum / scoreyear.length
-    console.log(avg)
+    //console.logavg)
 
     const minVal = Math.min(...scoreyear.map(item => item.adhd1_dscore))
-    console.log("ค่าต่ำสุด", minVal)
+    //console.log"ค่าต่ำสุด", minVal)
 
     const maxVal = Math.max(...scoreyear.map(item => item.adhd1_dscore));
-    console.log("ค่าสูงสุด", maxVal)
+    //console.log"ค่าสูงสุด", maxVal)
 
 
 
@@ -136,9 +136,9 @@ const TabADHA = () => {
     }, 0);
     const avg5 = sum5 / scoreyear.length
     const minVal5 = Math.min(...scoreyear.map(item => item.adhd1_tscore))
-    console.log("ค่าต่ำสุด", minVal)
+    //console.log"ค่าต่ำสุด", minVal)
     const maxVal5 = Math.max(...scoreyear.map(item => item.adhd1_tscore));
-    console.log("ค่าสูงสุด", maxVal)
+    //console.log"ค่าสูงสุด", maxVal)
 
     const data = {
         labels: ["ด้าน ซน/วู่วาม", "ค่า Avg (ห้องเรียน)", "ค่าMax (ห้องเรียน)", "ค่าMin (ห้องเรียน)"],
@@ -195,30 +195,30 @@ const TabADHA = () => {
         return accumulator + object.adhd2_dscore;
     }, 0);
 
-    // console.log(sum)
+    // //console.logsum)
     const avg2 = sum2 / scoreyear.length
-    //console.log(avg)
+    ////console.logavg)
 
     const minVal2 = Math.min(...scoreyear.map(item => item.adhd2_dscore))
-    console.log("ค่าต่ำสุด", minVal2)
+    //console.log"ค่าต่ำสุด", minVal2)
 
     const maxVal2 = Math.max(...scoreyear.map(item => item.adhd2_dscore));
-    console.log("ค่าสูงสุด", maxVal2)
+    //console.log"ค่าสูงสุด", maxVal2)
 
     //tscore2 data
     const sum3 = scoreyear.reduce((accumulator, object) => {
         return accumulator + object.adhd2_tscore;
     }, 0);
 
-    // console.log(sum)
+    // //console.logsum)
     const avg3 = sum3 / scoreyear.length
-    //console.log(avg)
+    ////console.logavg)
 
     const minVal3 = Math.min(...scoreyear.map(item => item.adhd2_tscore))
-    //console.log("ค่าต่ำสุด", minVal2)
+    ////console.log"ค่าต่ำสุด", minVal2)
 
     const maxVal3 = Math.max(...scoreyear.map(item => item.adhd2_tscore));
-    //console.log("ค่าสูงสุด", maxVal2)
+    ////console.log"ค่าสูงสุด", maxVal2)
 
 
     //group
@@ -291,7 +291,7 @@ const TabADHA = () => {
             })
             .catch((err) => alert(err));
     }, [params]);
-    console.log(sigledata)
+    //console.logsigledata)
 
 
 

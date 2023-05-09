@@ -48,7 +48,7 @@ const ScreenningForm = () => {
     //console.log(contact.idcard);
     const data = { risk, idcard };
     const json = JSON.stringify(data, null, 4);
-    console.log(json);
+    //console.log(json);
 
     axios
       .post(`${process.env.REACT_APP_API}/screenning/${params.idcard}`, {
@@ -121,14 +121,7 @@ const ScreenningForm = () => {
                       checked={risk}
                       setter={setRisk}
                     />
-                    มีปัญหาพฤติกรรมเสี่ยงในวัยรุ่น (เสี่ยงทางเพศ สารเสพติด
-                    ติดเกม ฯลฯ หรือปัญหาเร่งด่วน อื่นๆ) <br />
-                    <br />
-                    <CheckboxInput
-                      value="ไม่พบปัญหาข้างต้น"
-                      checked={risk}
-                      setter={setRisk}
-                    />
+                    
                     ไม่พบปัญหาข้างต้น
                   </div>
                 </div>

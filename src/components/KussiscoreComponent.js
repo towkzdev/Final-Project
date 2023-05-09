@@ -41,7 +41,7 @@ const KussiscoreComponent = () => {
       .catch((err) => alert(err));
   }, [params]);
 
-console.log(adhddata)
+//console.logadhddata)
 
   const [infomation, setInfomation] = useState([]);
   useEffect(() => {
@@ -59,10 +59,10 @@ console.log(adhddata)
   }, [params]);
 
   const adhdscore1 = adhddata.score;
-  console.log(adhdscore1);
+  //console.logadhdscore1);
 
   const json = JSON.stringify(adhddata, null, 4);
-  console.log(json);
+  //console.logjson);
 
   const [state, setState] = useState({
     comment: "",
@@ -76,7 +76,7 @@ console.log(adhddata)
     //เข้าไปทำงานส่วนของstate แล้วเช็ค แอตทรีบิ้ว หรือฟิลที่เปลี่ยนไปที่อยู่ใน opject state แล้วมาเก็บค่าใน setstate
     setState({ ...state, [name]: event.target.value })
   }
-  console.log(state)
+  //console.logstate)
 
 
   const authtoken = localStorage.token

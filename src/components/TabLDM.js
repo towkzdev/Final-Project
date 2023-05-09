@@ -24,7 +24,7 @@ const TabLDM = () => {
             })
             .catch((err) => alert(err));
     }, [params]);
-    console.log(adhddata)
+    //console.logadhddata)
 
 
     const history = useNavigate();
@@ -54,7 +54,7 @@ const TabLDM = () => {
     const valueSchoolyear = data => event => {
         setDatascore({ ...datascore, [data]: event.target.value })
     }
-    console.log(datascore)
+    //console.logdatascore)
 
 
 
@@ -64,7 +64,7 @@ const TabLDM = () => {
     const schoolid = adhddata.schoolid
     const searchData = (e) => {
         e.preventDefault();
-        console.log("ค้นหา", grade, room, schoolyear, term, idcard)
+        //console.log"ค้นหา", grade, room, schoolyear, term, idcard)
 
 
         if (schoolyear != null && term != null) {
@@ -104,10 +104,10 @@ const TabLDM = () => {
         } else { alert("เกิดข้อผิดพลาด") }
     }
 
-    console.log(scoreyear)
-    console.log("คะแนนนักเรียน", scorestd)
+    //console.logscoreyear)
+    //console.log"คะแนนนักเรียน", scorestd)
     //const adhd1_dscore = scorestd.adhd1_dscore
-    //console.log(adhd1_dscore , "คะแนน")
+    ////console.logadhd1_dscore , "คะแนน")
     const schoolyear2 = scorestd.schoolyear
     const term2 = scorestd.term
 
@@ -116,15 +116,15 @@ const TabLDM = () => {
         return accumulator + object.ldm_dscore;
     }, 0);
 
-    console.log(sum)
+    //console.logsum)
     const avg = sum / scoreyear.length
-    console.log(avg)
+    //console.logavg)
 
     const minVal = Math.min(...scoreyear.map(item => item.ldm_dscore))
-    console.log("ค่าต่ำสุด", minVal)
+    //console.log"ค่าต่ำสุด", minVal)
 
     const maxVal = Math.max(...scoreyear.map(item => item.ldm_dscore));
-    console.log("ค่าสูงสุด", maxVal)
+    //console.log"ค่าสูงสุด", maxVal)
 
 
     const adhd1_dscore = scorestd.adhd1_dscore
@@ -134,9 +134,9 @@ const TabLDM = () => {
     }, 0);
     const avg5 = sum5 / scoreyear.length
     const minVal5 = Math.min(...scoreyear.map(item => item.ldm_tscore))
-    console.log("ค่าต่ำสุด", minVal)
+    //console.log"ค่าต่ำสุด", minVal)
     const maxVal5 = Math.max(...scoreyear.map(item => item.ldm_tscore));
-    console.log("ค่าสูงสุด", maxVal)
+    //console.log"ค่าสูงสุด", maxVal)
 
     const data = {
         labels: ["ด้านการคำนวณ", "ค่าเฉลี่ย", "ค่าสูงสุด", "ค่าต่ำสุด"],
@@ -208,7 +208,7 @@ const TabLDM = () => {
             })
             .catch((err) => alert(err));
     }, [params]);
-    console.log(sigledata)
+    //console.logsigledata)
 
     //ลบค่าปี เทอม ซ้ำ
     const seen = new Set();

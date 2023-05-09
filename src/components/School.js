@@ -26,7 +26,7 @@ const School = () => {
             })
             .catch((err) => alert(err));
     }, [params]);
-    console.log(schooldata)
+    //console.logschooldata)
 
 
     const [allstudent, setAllstudent] = useState([]);
@@ -43,7 +43,7 @@ const School = () => {
             })
             .catch((err) => alert(err));
     }, [params]);
-    console.log(allstudent)
+    //console.logallstudent)
 
     /*
         const grade = sigledata.grade
@@ -63,7 +63,7 @@ const School = () => {
     const valueSchoolyear = data => event => {
         setDatascore({ ...datascore, [data]: event.target.value })
     }
-    console.log(datascore)
+    //console.logdatascore)
 
 
 
@@ -74,8 +74,8 @@ const School = () => {
 
     const searchData = (e) => {
         e.preventDefault();
-        console.log("ค้นหา", schoolyear, term, schoolid)
-        console.log(`${process.env.REACT_APP_API}/kussi-schoolyear/${schoolyear}/${term}/${schoolid}`)
+        //console.log"ค้นหา", schoolyear, term, schoolid)
+        //console.log`${process.env.REACT_APP_API}/kussi-schoolyear/${schoolyear}/${term}/${schoolid}`)
 
         if (schoolyear != null && term != null) {
             axios.get(`${process.env.REACT_APP_API}/kussi-schoolyear/${schoolyear}/${term}/${schoolid}`,
@@ -95,11 +95,11 @@ const School = () => {
                         confirmButtonColor: "#2D7F55",
                     }));
         }
-        console.log(`${process.env.REACT_APP_API}/kussi-schoolyear/${schoolyear}/${term}/${schoolid}`)
+        //console.log`${process.env.REACT_APP_API}/kussi-schoolyear/${schoolyear}/${term}/${schoolid}`)
 
 
     }
-    console.log(scoreyear)
+    //console.logscoreyear)
 
 
     const seen = new Set();
@@ -109,7 +109,7 @@ const School = () => {
         return !duplicate;
     });
 
-    //console.log(uniqueschoolyear.map(item => item.schoolyear))
+    ////console.loguniqueschoolyear.map(item => item.schoolyear))
 
     const seen2 = new Set();
     const uniqueschoolterm = schooldata.filter(item => {
@@ -125,7 +125,7 @@ const School = () => {
         seen3.add(item.term);
         return !duplicate3;
     });
-    //console.log(termvalue)
+    ////console.logtermvalue)
 
     const seen4 = new Set();
     const schoolyearvalue = scoreyear.filter(item => {
@@ -133,7 +133,7 @@ const School = () => {
         seen4.add(item.schoolyear);
         return !duplicate4;
     });
-    // console.log(termvalue)
+    // //console.logtermvalue)
 
     //ด้าน D ADHD1
     const sum = scoreyear.reduce((accumulator, object) => {
@@ -552,15 +552,15 @@ const School = () => {
     const sum18 = scoreyear.reduce((accumulator, object) => {
         return accumulator + object.ldm_group;
     }, 0);
-    //console.log("เช็คค่า", sum18)
+    ////console.log"เช็คค่า", sum18)
     const avg18 = sum18 / scoreyear.length
-    // console.log("เช็คค่า", avg18)
+    // //console.log"เช็คค่า", avg18)
     const count21 = scoreyear.reduce((counter, obj) => obj.ldm_group === 1 ? counter += 1 : counter, 0);
     const count22 = scoreyear.reduce((counter, obj) => obj.ldm_group === 2 ? counter += 1 : counter, 0);
     const count23 = scoreyear.reduce((counter, obj) => obj.ldm_group === 3 ? counter += 1 : counter, 0);
     const count24 = scoreyear.reduce((counter, obj) => obj.ldm_group === 4 ? counter += 1 : counter, 0);
 
-    console.log(count22)
+    //console.logcount22)
 
 
     const data9 = {
@@ -641,7 +641,7 @@ const School = () => {
     const count27 = scoreyear.reduce((counter, obj) => obj.autism_group === 3 ? counter += 1 : counter, 0);
     const count28 = scoreyear.reduce((counter, obj) => obj.autism_group === 4 ? counter += 1 : counter, 0);
 
-    console.log(count22)
+    //console.logcount22)
 
 
     const data11 = {

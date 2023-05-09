@@ -20,14 +20,14 @@ const StudentcontactsComponent = () => {
     const valueGrade = data => event => {
         setStdgrade({ ...stdgrade, [data]: event.target.value })
     }
-    console.log(stdgrade)
+    //console.logstdgrade)
 
     //searchFunction
     const schoolid = localStorage.schoolid
     const [studentgrade, setStudentgrade] = useState([])
     const searchData = (e) => {
         e.preventDefault();
-        console.log("ค้นหา", grade, room)
+        //console.log"ค้นหา", grade, room)
         if (grade != null && room === "-") {
             axios.get(`${process.env.REACT_APP_API}/search/${grade}/${schoolid}`,
                 {
@@ -63,9 +63,9 @@ const StudentcontactsComponent = () => {
                         confirmButtonColor: "#2D7F55",
                     }));
         } else { alert("เกิดข้อผิดพลาด") }
-        console.log(`${process.env.REACT_APP_API}/search/${grade}`)
+        //console.log`${process.env.REACT_APP_API}/search/${grade}`)
     }
-    console.log(studentgrade)
+    //console.logstudentgrade)
 
 
     const sizePerPageOptionRenderer = ({
@@ -101,7 +101,7 @@ const StudentcontactsComponent = () => {
     //delete data 
 
     const Delete = (stdidcard) => {
-        console.log(stdidcard)
+        //console.logstdidcard)
         Swal.fire({
             title: 'ยืนยันการลบ',
             //text: "You won't be able to revert this!",

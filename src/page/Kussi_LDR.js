@@ -93,2448 +93,2448 @@ const Kussi_LDR = (props) => {
     var ld1_group;
     if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 60 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 59 && sex === "ชาย")) {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      ////console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 58 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 57 && sex === "ชาย")) {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 56 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 55 && sex === "ชาย")) {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 54 && sex === "ชาย") {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 53 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 52 && sex === "ชาย")) {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 51 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 50 && sex === "ชาย")) {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 49 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 48 && sex === "ชาย")) {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 47 && sex === "ชาย") {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 46 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 45 && sex === "ชาย")) {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 44 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 43 && sex === "ชาย")) {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 42 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 41 && sex === "ชาย")) {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 40 && sex === "ชาย") {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 39 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 38 && sex === "ชาย")) {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 37 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 36 && sex === "ชาย")) {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 35 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 34 && sex === "ชาย")) {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 33 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 32 && sex === "ชาย")) {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 31 && sex === "ชาย") {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 30 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 29 && sex === "ชาย")) {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 28 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 27 && sex === "ชาย")) {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 26 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 25 && sex === "ชาย")) {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 24 && sex === "ชาย") {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 23 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 22 && sex === "ชาย")) {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 21 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 20 && sex === "ชาย")) {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 19 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 18 && sex === "ชาย")) {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 17 && sex === "ชาย") {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 16 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 15 && sex === "ชาย")) {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 14 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 13 && sex === "ชาย")) {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 12 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 11 && sex === "ชาย")) {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 10 && sex === "ชาย") {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 9 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 8 && sex === "ชาย")) {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 7 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 6 && sex === "ชาย")) {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 5 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 4 && sex === "ชาย")) {
       ld1_tscore = 40;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 3 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 2 && sex === "ชาย")) {
       ld1_tscore = 39;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 1 && sex === "ชาย") {
       ld1_tscore = 38;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 0 && sex === "ชาย") {
       ld1_tscore = 37;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 60 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 59 && sex === "ชาย")) {
       ld1_tscore = 72;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 58 && sex === "ชาย") {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 57 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 56 && sex === "ชาย")) {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 55 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 54 && sex === "ชาย")) {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 53 && sex === "ชาย") {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 52 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 51 && sex === "ชาย")) {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 50 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 49 && sex === "ชาย")) {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 48 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 47 && sex === "ชาย")) {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 46 && sex === "ชาย") {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 45 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 44 && sex === "ชาย")) {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 43 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 42 && sex === "ชาย")) {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 41 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 40 && sex === "ชาย")) {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 39 && sex === "ชาย") {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 38 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 37 && sex === "ชาย")) {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 36 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 35 && sex === "ชาย")) {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 34 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 33 && sex === "ชาย")) {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 32 && sex === "ชาย") {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 31 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 30 && sex === "ชาย")) {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 29 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 28 && sex === "ชาย")) {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 27 && sex === "ชาย") {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 26 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 25 && sex === "ชาย")) {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 24 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 23 && sex === "ชาย")) {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 22 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 21 && sex === "ชาย")) {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 20 && sex === "ชาย") {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 19 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 18 && sex === "ชาย")) {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 17 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 16 && sex === "ชาย")) {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 15 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 14 && sex === "ชาย")) {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 13 && sex === "ชาย") {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 12 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 11 && sex === "ชาย")) {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 10 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 9 && sex === "ชาย")) {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 8 && sex === "ชาย") {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 7 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 6 && sex === "ชาย")) {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 5 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 4 && sex === "ชาย")) {
       ld1_tscore = 40;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 3 && sex === "ชาย") {
       ld1_tscore = 39;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 1 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 2 && sex === "ชาย")) {
       ld1_tscore = 38;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 0 && sex === "ชาย") {
       ld1_tscore = 37;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 60 && sex === "ชาย") {
       ld1_tscore = 72;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 59 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 58 && sex === "ชาย")) {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 57 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 56 && sex === "ชาย")) {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 55 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 54 && sex === "ชาย")) {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 53 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 52 && sex === "ชาย")) {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 51 && sex === "ชาย") {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 50 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 49 && sex === "ชาย")) {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 48 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 47 && sex === "ชาย")) {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 46 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 45 && sex === "ชาย")) {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 44 && sex === "ชาย") {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 43 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 42 && sex === "ชาย")) {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 41 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 40 && sex === "ชาย")) {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 39 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 38 && sex === "ชาย")) {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 37 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 36 && sex === "ชาย")) {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 35 && sex === "ชาย") {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 34 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 33 && sex === "ชาย")) {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 32 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 31 && sex === "ชาย")) {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 30 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 29 && sex === "ชาย")) {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 28 && sex === "ชาย") {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 27 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 26 && sex === "ชาย")) {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 25 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 24 && sex === "ชาย")) {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 23 && sex === "ชาย") {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 22 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 21 && sex === "ชาย")) {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 20 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 19 && sex === "ชาย")) {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 18 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 17 && sex === "ชาย")) {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 16 && sex === "ชาย") {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 15 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 14 && sex === "ชาย")) {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 13 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 12 && sex === "ชาย")) {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 11 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 10 && sex === "ชาย")) {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 9 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 8 && sex === "ชาย")) {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 7 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 6 && sex === "ชาย")) {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 5 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 4 && sex === "ชาย")) {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 3 && sex === "ชาย") {
       ld1_tscore = 40;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 1 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 2 && sex === "ชาย")) {
       ld1_tscore = 39;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 0 && sex === "ชาย") {
       ld1_tscore = 38;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 60 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 59 && sex === "ชาย")) {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 58 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 57 && sex === "ชาย")) {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 56 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 55 && sex === "ชาย")) {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 54 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 53 && sex === "ชาย")) {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 52 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 51 && sex === "ชาย")) {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 50 && sex === "ชาย") {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 49 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 48 && sex === "ชาย")) {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 47 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 46 && sex === "ชาย")) {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 45 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 44 && sex === "ชาย")) {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 43 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 42 && sex === "ชาย")) {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 41 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 40 && sex === "ชาย")) {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 39 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 38 && sex === "ชาย")) {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 37 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 36 && sex === "ชาย")) {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 35 && sex === "ชาย") {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 34 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 33 && sex === "ชาย")) {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 32 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 31 && sex === "ชาย")) {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 30 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 29 && sex === "ชาย")) {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 28 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 27 && sex === "ชาย")) {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 26 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 25 && sex === "ชาย")) {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 24 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 23 && sex === "ชาย")) {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 22 && sex === "ชาย") {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 21 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 20 && sex === "ชาย")) {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 19 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 18 && sex === "ชาย")) {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 17 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 16 && sex === "ชาย")) {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 15 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 14 && sex === "ชาย")) {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 13 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 12 && sex === "ชาย")) {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 11 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 10 && sex === "ชาย")) {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 9 && sex === "ชาย") {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 8 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 7 && sex === "ชาย")) {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 6 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 5 && sex === "ชาย")) {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 4 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 3 && sex === "ชาย")) {
       ld1_tscore = 40;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 2 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 1 && sex === "ชาย")) {
       ld1_tscore = 39;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 0 && sex === "ชาย") {
       ld1_tscore = 38;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 60 && sex === "ชาย") {
       ld1_tscore = 76;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 59 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 58 && sex === "ชาย")) {
       ld1_tscore = 75;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 57 && sex === "ชาย") {
       ld1_tscore = 74;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 56 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 55 && sex === "ชาย")) {
       ld1_tscore = 73;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 54 && sex === "ชาย") {
       ld1_tscore = 72;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 53 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 52 && sex === "ชาย")) {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 51 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 50 && sex === "ชาย")) {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 49 && sex === "ชาย") {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 48 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 47 && sex === "ชาย")) {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 46 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 45 && sex === "ชาย")) {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 44 && sex === "ชาย") {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 43 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 42 && sex === "ชาย")) {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 41 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 10 && sex === "ชาย")) {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 39 && sex === "ชาย") {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 38 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 37 && sex === "ชาย")) {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 36 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 35 && sex === "ชาย")) {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 34 && sex === "ชาย") {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 33 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 32 && sex === "ชาย")) {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 31 && sex === "ชาย") {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 30 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 29 && sex === "ชาย")) {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 28 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 27 && sex === "ชาย")) {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 26 && sex === "ชาย") {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 25 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 24 && sex === "ชาย")) {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 23 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 22 && sex === "ชาย")) {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 21 && sex === "ชาย") {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 20 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 19 && sex === "ชาย")) {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 18 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 17 && sex === "ชาย")) {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 16 && sex === "ชาย") {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 15 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 14 && sex === "ชาย")) {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 13 && sex === "ชาย") {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 12 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 11 && sex === "ชาย")) {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 10 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 9 && sex === "ชาย")) {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 8 && sex === "ชาย") {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 7 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 6 && sex === "ชาย")) {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 5 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 4 && sex === "ชาย")) {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 3 && sex === "ชาย") {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 2 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 1 && sex === "ชาย")) {
       ld1_tscore = 40;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 0 && sex === "ชาย") {
       ld1_tscore = 39;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 60 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 59 && sex === "ชาย")) {
       ld1_tscore = 79;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 58 && sex === "ชาย") {
       ld1_tscore = 78;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 57 && sex === "ชาย") {
       ld1_tscore = 77;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 56 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 55 && sex === "ชาย")) {
       ld1_tscore = 76;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 54 && sex === "ชาย") {
       ld1_tscore = 75;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 53 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 52 && sex === "ชาย")) {
       ld1_tscore = 74;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 51 && sex === "ชาย") {
       ld1_tscore = 73;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 50 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 49 && sex === "ชาย")) {
       ld1_tscore = 72;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 48 && sex === "ชาย") {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 47 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 46 && sex === "ชาย")) {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 45 && sex === "ชาย") {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 44 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 43 && sex === "ชาย")) {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 42 && sex === "ชาย") {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 41 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 40 && sex === "ชาย")) {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 39 && sex === "ชาย") {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 38 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 37 && sex === "ชาย")) {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 36 && sex === "ชาย") {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 35 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 34 && sex === "ชาย")) {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 33 && sex === "ชาย") {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 32 && sex === "ชาย") {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 31 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 30 && sex === "ชาย")) {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 29 && sex === "ชาย") {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 28 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 27 && sex === "ชาย")) {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 26 && sex === "ชาย") {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 25 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 24 && sex === "ชาย")) {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 23 && sex === "ชาย") {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 22 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 21 && sex === "ชาย")) {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 20 && sex === "ชาย") {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 19 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 18 && sex === "ชาย")) {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 17 && sex === "ชาย") {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 16 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 15 && sex === "ชาย")) {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 14 && sex === "ชาย") {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 13 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 12 && sex === "ชาย")) {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 11 && sex === "ชาย") {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 10 && sex === "ชาย") {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 9 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 8 && sex === "ชาย")) {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 7 && sex === "ชาย") {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 6 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 5 && sex === "ชาย")) {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 4 && sex === "ชาย") {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 3 && sex === "ชาย") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 2 && sex === "ชาย")) {
       ld1_tscore = 40;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 1 && sex === "ชาย") {
       ld1_tscore = 39;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 0 && sex === "ชาย") {
       ld1_tscore = 38;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 60 && sex === "หญิง") {
       ld1_tscore = 79;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 59 && sex === "หญิง") {
       ld1_tscore = 78;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 58 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 57 && sex === "หญิง")) {
       ld1_tscore = 77;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 56 && sex === "หญิง") {
       ld1_tscore = 76;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 55 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 54 && sex === "หญิง")) {
       ld1_tscore = 75;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 53 && sex === "หญิง") {
       ld1_tscore = 74;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 52 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 51 && sex === "หญิง")) {
       ld1_tscore = 73;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 50 && sex === "หญิง") {
       ld1_tscore = 72;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 49 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 48 && sex === "หญิง")) {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 47 && sex === "หญิง") {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 46 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 45 && sex === "หญิง")) {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 44 && sex === "หญิง") {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 43 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 42 && sex === "หญิง")) {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 41 && sex === "หญิง") {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 40 && sex === "หญิง") {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 39 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 38 && sex === "หญิง")) {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 37 && sex === "หญิง") {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 36 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 35 && sex === "หญิง")) {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 34 && sex === "หญิง") {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 33 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 32 && sex === "หญิง")) {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 31 && sex === "หญิง") {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 30 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 29 && sex === "หญิง")) {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 28 && sex === "หญิง") {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 27 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 26 && sex === "หญิง")) {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 25 && sex === "หญิง") {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 24 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 23 && sex === "หญิง")) {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 22 && sex === "หญิง") {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 21 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 20 && sex === "หญิง")) {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 19 && sex === "หญิง") {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 18 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 17 && sex === "หญิง")) {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 16 && sex === "หญิง") {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 15 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 14 && sex === "หญิง")) {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 13 && sex === "หญิง") {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 12 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 11 && sex === "หญิง")) {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 10 && sex === "หญิง") {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 9 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 8 && sex === "หญิง")) {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 7 && sex === "หญิง") {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 6 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 5 && sex === "หญิง")) {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 4 && sex === "หญิง") {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 3 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 2 && sex === "หญิง")) {
       ld1_tscore = 40;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 1 && sex === "หญิง") {
       ld1_tscore = 39;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่1" && ld1_dscore === 0 && sex === "หญิง") {
       ld1_tscore = 38;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 60 && sex === "หญิง") {
       ld1_tscore = 82;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 59 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 58 && sex === "หญิง")) {
       ld1_tscore = 81;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 57 && sex === "หญิง") {
       ld1_tscore = 80;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 56 && sex === "หญิง") {
       ld1_tscore = 79;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 55 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 54 && sex === "หญิง")) {
       ld1_tscore = 78;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 53 && sex === "หญิง") {
       ld1_tscore = 77;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 52 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 51 && sex === "หญิง")) {
       ld1_tscore = 76;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 50 && sex === "หญิง") {
       ld1_tscore = 75;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 49 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 48 && sex === "หญิง")) {
       ld1_tscore = 74;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 47 && sex === "หญิง") {
       ld1_tscore = 73;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 46 && sex === "หญิง") {
       ld1_tscore = 72;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 45 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 44 && sex === "หญิง")) {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 43 && sex === "หญิง") {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 42 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 41 && sex === "หญิง")) {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 40 && sex === "หญิง") {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 39 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 38 && sex === "หญิง")) {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 37 && sex === "หญิง") {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 36 && sex === "หญิง") {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 35 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 34 && sex === "หญิง")) {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 33 && sex === "หญิง") {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 32 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 31 && sex === "หญิง")) {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 30 && sex === "หญิง") {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 29 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 28 && sex === "หญิง")) {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 27 && sex === "หญิง") {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 26 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 25 && sex === "หญิง")) {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 24 && sex === "หญิง") {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 23 && sex === "หญิง") {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 22 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 21 && sex === "หญิง")) {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 20 && sex === "หญิง") {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 19 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 18 && sex === "หญิง")) {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 17 && sex === "หญิง") {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 16 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 15 && sex === "หญิง")) {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 14 && sex === "หญิง") {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 13 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 12 && sex === "หญิง")) {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 11 && sex === "หญิง") {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 10 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 9 && sex === "หญิง")) {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 8 && sex === "หญิง") {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 7 && sex === "หญิง") {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 6 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 5 && sex === "หญิง")) {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 4 && sex === "หญิง") {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 3 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 2 && sex === "หญิง")) {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 1 && sex === "หญิง") {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 0 && sex === "หญิง") {
       ld1_tscore = 40;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่2" && ld1_dscore === 0 && sex === "หญิง") {
       ld1_tscore = 39;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 60 && sex === "หญิง") {
       ld1_tscore = 78;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 59 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 58 && sex === "หญิง")) {
       ld1_tscore = 77;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 57 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 56 && sex === "หญิง")) {
       ld1_tscore = 76;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 55 && sex === "หญิง") {
       ld1_tscore = 75;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 54 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 53 && sex === "หญิง")) {
       ld1_tscore = 74;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 52 && sex === "หญิง") {
       ld1_tscore = 73;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 51 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 50 && sex === "หญิง")) {
       ld1_tscore = 72;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 49 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 48 && sex === "หญิง")) {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 47 && sex === "หญิง") {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 46 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 45 && sex === "หญิง")) {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 44 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 43 && sex === "หญิง")) {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 42 && sex === "หญิง") {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 41 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 40 && sex === "หญิง")) {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 39 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 38 && sex === "หญิง")) {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 37 && sex === "หญิง") {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 36 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 35 && sex === "หญิง")) {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 34 && sex === "หญิง") {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 33 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 32 && sex === "หญิง")) {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 31 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 30 && sex === "หญิง")) {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 29 && sex === "หญิง") {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 28 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 27 && sex === "หญิง")) {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 26 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 25 && sex === "หญิง")) {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 24 && sex === "หญิง") {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 23 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 22 && sex === "หญิง")) {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 21 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 20 && sex === "หญิง")) {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 19 && sex === "หญิง") {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 18 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 17 && sex === "หญิง")) {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 16 && sex === "หญิง") {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 15 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 14 && sex === "หญิง")) {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 13 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 12 && sex === "หญิง")) {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 11 && sex === "หญิง") {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 10 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 9 && sex === "หญิง")) {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 8 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 7 && sex === "หญิง")) {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 6 && sex === "หญิง") {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 5 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 4 && sex === "หญิง")) {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 3 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 2 && sex === "หญิง")) {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 1 && sex === "หญิง") {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่3" && ld1_dscore === 0 && sex === "หญิง") {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 60 && sex === "หญิง") {
       ld1_tscore = 83;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 59 && sex === "หญิง") {
       ld1_tscore = 82;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 58 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 57 && sex === "หญิง")) {
       ld1_tscore = 81;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 56 && sex === "หญิง") {
       ld1_tscore = 80;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 55 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 54 && sex === "หญิง")) {
       ld1_tscore = 79;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 53 && sex === "หญิง") {
       ld1_tscore = 78;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 52 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 51 && sex === "หญิง")) {
       ld1_tscore = 77;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 50 && sex === "หญิง") {
       ld1_tscore = 76;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 49 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 48 && sex === "หญิง")) {
       ld1_tscore = 75;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 47 && sex === "หญิง") {
       ld1_tscore = 74;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 46 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 45 && sex === "หญิง")) {
       ld1_tscore = 73;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 44 && sex === "หญิง") {
       ld1_tscore = 72;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 43 && sex === "หญิง") {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 42 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 41 && sex === "หญิง")) {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 40 && sex === "หญิง") {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 39 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 38 && sex === "หญิง")) {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 37 && sex === "หญิง") {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 36 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 35 && sex === "หญิง")) {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 34 && sex === "หญิง") {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 33 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 32 && sex === "หญิง")) {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 31 && sex === "หญิง") {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 30 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 29 && sex === "หญิง")) {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 28 && sex === "หญิง") {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 27 && sex === "หญิง") {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 26 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 25 && sex === "หญิง")) {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 24 && sex === "หญิง") {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 23 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 22 && sex === "หญิง")) {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 21 && sex === "หญิง") {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 20 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 19 && sex === "หญิง")) {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 18 && sex === "หญิง") {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 17 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 16 && sex === "หญิง")) {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 15 && sex === "หญิง") {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 14 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 13 && sex === "หญิง")) {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 12 && sex === "หญิง") {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 11 && sex === "หญิง") {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 10 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 9 && sex === "หญิง")) {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 8 && sex === "หญิง") {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 7 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 6 && sex === "หญิง")) {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 5 && sex === "หญิง") {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 4 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 3 && sex === "หญิง")) {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 2 && sex === "หญิง") {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 1 && sex === "หญิง") {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่4" && ld1_dscore === 0 && sex === "หญิง") {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 60 && sex === "หญิง") {
       ld1_tscore = 88;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 59 && sex === "หญิง") {
       ld1_tscore = 87;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 58 && sex === "หญิง") {
       ld1_tscore = 86;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 57 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 56 && sex === "หญิง")) {
       ld1_tscore = 85;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 55 && sex === "หญิง") {
       ld1_tscore = 84;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 54 && sex === "หญิง") {
       ld1_tscore = 83;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 53 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 52 && sex === "หญิง")) {
       ld1_tscore = 82;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 51 && sex === "หญิง") {
       ld1_tscore = 81;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 50 && sex === "หญิง") {
       ld1_tscore = 80;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 49 && sex === "หญิง") {
       ld1_tscore = 79;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 48 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 47 && sex === "หญิง")) {
       ld1_tscore = 78;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 46 && sex === "หญิง") {
       ld1_tscore = 77;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 45 && sex === "หญิง") {
       ld1_tscore = 76;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 44 && sex === "หญิง") {
       ld1_tscore = 75;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 43 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 42 && sex === "หญิง")) {
       ld1_tscore = 74;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 41 && sex === "หญิง") {
       ld1_tscore = 73;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 40 && sex === "หญิง") {
       ld1_tscore = 72;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 39 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 38 && sex === "หญิง")) {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 37 && sex === "หญิง") {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 36 && sex === "หญิง") {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 35 && sex === "หญิง") {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 34 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 33 && sex === "หญิง")) {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 32 && sex === "หญิง") {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 31 && sex === "หญิง") {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 30 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 29 && sex === "หญิง")) {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 28 && sex === "หญิง") {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 27 && sex === "หญิง") {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 26 && sex === "หญิง") {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 25 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 24 && sex === "หญิง")) {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 23 && sex === "หญิง") {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 22 && sex === "หญิง") {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 21 && sex === "หญิง") {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 20 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 19 && sex === "หญิง")) {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 18 && sex === "หญิง") {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 17 && sex === "หญิง") {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 16 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 15 && sex === "หญิง")) {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 14 && sex === "หญิง") {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 13 && sex === "หญิง") {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 12 && sex === "หญิง") {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 11 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 10 && sex === "หญิง")) {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 9 && sex === "หญิง") {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 8 && sex === "หญิง") {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 7 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 6 && sex === "หญิง")) {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 5 && sex === "หญิง") {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 4 && sex === "หญิง") {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 3 && sex === "หญิง") {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 2 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 1 && sex === "หญิง")) {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่5" && ld1_dscore === 0 && sex === "หญิง") {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
     else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 90 && sex === "หญิง") {
       ld1_tscore = 94;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 60 && sex === "หญิง") {
       ld1_tscore = 88;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 59 && sex === "หญิง") {
       ld1_tscore = 87;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 58 && sex === "หญิง") {
       ld1_tscore = 86;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 57 && sex === "หญิง") {
       ld1_tscore = 85;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 56 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 55 && sex === "หญิง")) {
       ld1_tscore = 84;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 54 && sex === "หญิง") {
       ld1_tscore = 83;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 53 && sex === "หญิง") {
       ld1_tscore = 82;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 52 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 51 && sex === "หญิง")) {
       ld1_tscore = 81;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 50 && sex === "หญิง") {
       ld1_tscore = 80;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 49 && sex === "หญิง") {
       ld1_tscore = 79;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 48 && sex === "หญิง") {
       ld1_tscore = 78;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 47 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 46 && sex === "หญิง")) {
       ld1_tscore = 77;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 45 && sex === "หญิง") {
       ld1_tscore = 76;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 44 && sex === "หญิง") {
       ld1_tscore = 75;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 43 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 42 && sex === "หญิง")) {
       ld1_tscore = 74;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 41 && sex === "หญิง") {
       ld1_tscore = 73;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 40 && sex === "หญิง") {
       ld1_tscore = 72;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 39 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 38 && sex === "หญิง")) {
       ld1_tscore = 71;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 4;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 37 && sex === "หญิง") {
       ld1_tscore = 70;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 36 && sex === "หญิง") {
       ld1_tscore = 69;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 35 && sex === "หญิง") {
       ld1_tscore = 68;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 34 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 34 && sex === "หญิง")) {
       ld1_tscore = 67;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 32 && sex === "หญิง") {
       ld1_tscore = 66;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 31 && sex === "หญิง") {
       ld1_tscore = 65;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 30 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 29 && sex === "หญิง")) {
       ld1_tscore = 64;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 28 && sex === "หญิง") {
       ld1_tscore = 63;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 27 && sex === "หญิง") {
       ld1_tscore = 62;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 26 && sex === "หญิง") {
       ld1_tscore = 61;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 3;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 25 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 24 && sex === "หญิง")) {
       ld1_tscore = 60;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 23 && sex === "หญิง") {
       ld1_tscore = 59;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 22 && sex === "หญิง") {
       ld1_tscore = 58;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 21 && sex === "หญิง") {
       ld1_tscore = 57;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 20 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 19 && sex === "หญิง")) {
       ld1_tscore = 56;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 18 && sex === "หญิง") {
       ld1_tscore = 55;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 17 && sex === "หญิง") {
       ld1_tscore = 54;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 16 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 15 && sex === "หญิง")) {
       ld1_tscore = 53;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 14 && sex === "หญิง") {
       ld1_tscore = 52;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 13 && sex === "หญิง") {
       ld1_tscore = 51;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 2;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 11 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 12 && sex === "หญิง")) {
       ld1_tscore = 50;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 10 && sex === "หญิง") {
       ld1_tscore = 49;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 9 && sex === "หญิง") {
       ld1_tscore = 48;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 8 && sex === "หญิง") {
       ld1_tscore = 47;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 7 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 6 && sex === "หญิง")) {
       ld1_tscore = 46;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 5 && sex === "หญิง") {
       ld1_tscore = 45;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 4 && sex === "หญิง") {
       ld1_tscore = 44;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if ((g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 3 && sex === "หญิง") || (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 2 && sex === "หญิง")) {
       ld1_tscore = 43;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 1 && sex === "หญิง") {
       ld1_tscore = 42;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     } else if (g === "ชั้นประถมศึกษาปีที่6" && ld1_dscore === 0 && sex === "หญิง") {
       ld1_tscore = 41;
-      console.log("ld1_tscore = " + ld1_tscore);
+      //console.log"ld1_tscore = " + ld1_tscore);
       ld1_group = 1;
-      console.log("ld1_group = " + ld1_group);
+      //console.log"ld1_group = " + ld1_group);
     }
 
-    console.log("ชั้น" + g)
-    console.log("sex" + sex)
-    console.log("d score :" + ld1_dscore)
-    console.log("t score :" + ld1_tscore)
-    console.log("group :" + ld1_group)
+    //console.log"ชั้น" + g)
+    //console.log"sex" + sex)
+    //console.log"d score :" + ld1_dscore)
+    //console.log"t score :" + ld1_tscore)
+    //console.log"group :" + ld1_group)
 
     const ldr_dscore = ld1_dscore
     const ldr_tscore = ld1_tscore

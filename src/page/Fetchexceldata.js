@@ -21,7 +21,7 @@ function Fetchexceldata() {
       const excelfile = xlsx.read(data);
       const excelsheet = excelfile.Sheets[excelfile.SheetNames[0]];
       const exceljson = xlsx.utils.sheet_to_json(excelsheet);
-      console.log(exceljson);
+      //console.logexceljson);
      
       setExcelData(exceljson);
    }
@@ -37,10 +37,10 @@ function Fetchexceldata() {
    const authtoken = localStorage.token
    const formSubmit = (e) => {
       e.preventDefault();
-      // console.log(excelData)
-      console.log(JSON.stringify(excelData))
+      // //console.logexcelData)
+      //console.logJSON.stringify(excelData))
 
-      console.log(excelData)
+      //console.logexcelData)
 
       axios.post(`${process.env.REACT_APP_API}/excelsubmit`, excelData,
       {
@@ -54,7 +54,7 @@ function Fetchexceldata() {
                text: "บันทึกสำเร็จ",
                confirmButtonColor: "#2D7F55",
             });
-            console.log(response)
+            //console.logresponse)
          })
          .catch((err) => {
             Swal.fire({

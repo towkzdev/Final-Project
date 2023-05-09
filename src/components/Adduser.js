@@ -23,7 +23,7 @@ const Adduser = () => {
         setUderdata({ ...userdata, [data]: event.target.value })
     }
 
-    console.log(userdata)
+    //console.loguserdata)
 
     const authtoken = localStorage.token
     const history = useNavigate();

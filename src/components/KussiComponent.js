@@ -25,7 +25,7 @@ const KussiComponent = () => {
       })
       .catch((err) => alert(err));
   }, [params]);
-  //console.log(contact)
+  ////console.logcontact)
   const schoolid = contact.schoolid
   const age = contact.birthday;
   const birthday = moment(age).format("DD-MM-YYYY");
@@ -34,12 +34,12 @@ const KussiComponent = () => {
   const stdage = String(Math.abs(ageDate.getUTCFullYear() - 1970));
 
   const birthday2 = moment(age).format("MM");
-  console.log(stdage + birthday2)
+  //console.logstdage + birthday2)
 
   
 
   const std_name = contact.f_name + "   " + contact.l_name;
-  //console.log(std_name);
+  ////console.logstd_name);
 
   const stdidcard = contact.stdidcard;
   const [riskhistory, setRiskhistory] = useState("");
@@ -88,7 +88,7 @@ const KussiComponent = () => {
       stdage: stdage
     }
     console.table(section1)
-    console.log(JSON.stringify(section1));
+    //console.logJSON.stringify(section1));
     axios.post(`${process.env.REACT_APP_API}/kussi/${params.idcard}`, {
       section1, section2, section3
     },
@@ -136,7 +136,7 @@ const KussiComponent = () => {
     //เข้าไปทำงานส่วนของstate แล้วเช็ค แอตทรีบิ้ว หรือฟิลที่เปลี่ยนไปที่อยู่ใน opject state แล้วมาเก็บค่าใน setstate
     setState({ ...state, [name]: event.target.value })
   }
-  console.log(state)
+  //console.logstate)
   return (
     <div>
       <Navbartop /> <br />

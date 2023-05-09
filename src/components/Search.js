@@ -16,13 +16,13 @@ const Search = (props) => {
   const valueGrade = data => event => {
     setStdgrade({ ...stdgrade, [data]: event.target.value })
   }
-  console.log(stdgrade)
+  //console.logstdgrade)
 
   const authtoken = localStorage.token
   const searchData = (e) => {
     
     e.preventDefault();
-    console.log("ค้นหา", grade, room)
+    //console.log"ค้นหา", grade, room)
     axios.get(`${process.env.REACT_APP_API}/search/${grade}/${room}`,
     {
       headers: {
@@ -35,7 +35,7 @@ const Search = (props) => {
       .catch((err) => alert('กรุณาเลือกห้องเรียน'));
    
   }
-  console.log(studentgrade)
+  //console.logstudentgrade)
   return (
 
     <div className="bg-2 shadow">

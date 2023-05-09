@@ -20,7 +20,7 @@ const LoginComponent = () => {
     const valueLogin = data => event => {
         setLogin({ ...login, [data]: event.target.value })
     }
-    console.log(login)
+    //console.loglogin)
 
     const history = useNavigate()
     const roleBaseRedirect = (role) => {
@@ -34,8 +34,8 @@ const LoginComponent = () => {
 
     const Submitlogin = (e) => {
         e.preventDefault();
-        console.table(login)
-        //console.log(process.env.REACT_APP_API)
+        //console.table(login)
+        ////console.logprocess.env.REACT_APP_API)
         axios.post(`${process.env.REACT_APP_API}/login`, {
             username, password
         })
@@ -57,7 +57,7 @@ const LoginComponent = () => {
                         schoolid: res.data.payload.user.schoolid
                     },
                 })
-                console.log(res.data)
+                //console.logres.data)
                 localStorage.setItem('token', res.data.token)
                 localStorage.setItem('username', res.data.payload.user.username)
                 localStorage.setItem('fname', res.data.payload.user.fname)
@@ -72,8 +72,8 @@ const LoginComponent = () => {
                     text: "ชื่อผู้ใช้หรือรหัสผ่านผิด",
                     confirmButtonColor: "#EF1717",
                 });
-                console.log(err)
-                // console.log(`${process.env.REACT_APP_API}/login`)
+                //console.logerr)
+                // //console.log`${process.env.REACT_APP_API}/login`)
 
             });
     }

@@ -30,7 +30,7 @@ const TeacherDataComponent = () => {
             .catch((err) => alert(err));
     }, [params]);
 
-    console.log(teacherdata)
+    //console.logteacherdata)
 
 
     const [changepassword, setChangepassword] = useState({
@@ -39,7 +39,7 @@ const TeacherDataComponent = () => {
         confirmpassword: ''
     })
 
-    console.log(changepassword)
+    //console.logchangepassword)
 
     const { password, confirmpassword} = changepassword
     const valuePassword = data => event => {
@@ -50,13 +50,13 @@ const TeacherDataComponent = () => {
         e.preventDefault();
 
         const tidcard = teacherdata.tidcard
-        console.log(tidcard)
+        //console.logtidcard)
        
         const values = {
             tidcard: tidcard,
             password: password
         }
-        console.log(values)
+        //console.logvalues)
 
         if (password !== confirmpassword) {
             Swal.fire({
@@ -74,14 +74,14 @@ const TeacherDataComponent = () => {
                         confirmButtonColor: "#2D7F55",
                     });
                     handleClose()
-                    console.log(res)
+                    //console.logres)
                 })
                 .catch(err => {
                     Swal.fire({
                         icon: 'error',
                         text: 'เกิดข้อผิดพลาด!',
                     })
-                    console.log(err.res.data)
+                    //console.logerr.res.data)
                 })
         }
     }

@@ -16,10 +16,10 @@ import { useDispatch, useSelector } from "react-redux";
 const Contact = () => {
 
   const schoolid = localStorage.schoolid
-  console.log(schoolid)
+  //console.logschoolid)
 
   const { user } = useSelector((state) => ({ ...state }));
-  //console.log('USER', user.username)
+  ////console.log'USER', user.username)
 
 
   //
@@ -31,14 +31,14 @@ const Contact = () => {
   const valueGrade = data => event => {
     setStdgrade({ ...stdgrade, [data]: event.target.value })
   }
-  console.log(stdgrade)
+  //console.logstdgrade)
 
   
   //searchdata
   const [studentgrade, setStudentgrade] = useState([])
   const searchData = (e) => {
     e.preventDefault();
-    console.log("ค้นหา", grade, room)
+    //console.log"ค้นหา", grade, room)
 
     const authtoken = localStorage.token
 
@@ -80,7 +80,7 @@ const Contact = () => {
 
 
   }
-  console.log(studentgrade)
+  //console.logstudentgrade)
 
 
 

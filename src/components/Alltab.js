@@ -23,7 +23,7 @@ const Alltab = () => {
             })
             .catch((err) => alert(err));
     }, [params]);
-    console.log(adhddata)
+    //console.logadhddata)
 
 
     const [sigledata, setSingledata] = useState([]);
@@ -40,7 +40,7 @@ const Alltab = () => {
             })
             .catch((err) => alert(err));
     }, [params]);
-    console.log(sigledata)
+    //console.logsigledata)
 
 
 
@@ -48,7 +48,7 @@ const Alltab = () => {
     const sum = alldata.reduce((accumulator, object) => {
         return accumulator + object.adhd1_dscore;
     }, 0);
-    console.log(sum)
+    //console.logsum)
     */
 
     //const labels = ["ซน/วู่วาม", "ขาดสมาธิ", "รวม", "การอ่าน", "การเขียน", "การคำนวณ", "ออทิซึม"];

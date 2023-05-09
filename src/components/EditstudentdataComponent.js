@@ -20,7 +20,7 @@ const EditstudentdataComponent = () => {
             }
         })
             .then((response) => {
-                console.log(response.data)
+                //console.logresponse.data)
                 const { stdidcard, sex, f_name, l_name, birthday, ethnicity, nationality, religion, parent, relevant, stdid, grade, room, no, term, schoolid, thainame, engname, address, district, amphure, province, zipcode, geography } = response.data
                 setFormdata({ ...formdata, stdidcard, sex, f_name, l_name, birthday, ethnicity, nationality, religion, parent, relevant, stdid, grade, room, no, term })
                 setSchooldata({ ...schooldata, schoolid, thainame, engname, address, district, amphure, province, zipcode, geography })
@@ -72,7 +72,7 @@ const EditstudentdataComponent = () => {
     const valueInform = data => event => {
         setFormdata({ ...formdata, [data]: event.target.value })
     }
-    //console.log(formdata)
+    ////console.logformdata)
 
     const [schooldata, setSchooldata] = useState({
         schoolid: "",
@@ -85,7 +85,7 @@ const EditstudentdataComponent = () => {
         zipcode: "",
         geography: ""
     })
-    //console.log(schooldata)
+    ////console.logschooldata)
     const { schoolid, thainame, engname, address, district, amphure, province, zipcode, geography } = schooldata
     const valueSchool = data => event => {
         setSchooldata({ ...schooldata, [data]: event.target.value })
@@ -121,16 +121,16 @@ const EditstudentdataComponent = () => {
                 alert(err.response.data.error);
             });
     }
-    // console.log(tambon)
+    // //console.logtambon)
 
     const onChangeDistrict = (e) => {
 
-        console.log(e.target.value)
+        //console.loge.target.value)
 
         const zipDistrict = tambon.filter(item => {
             return e.target.value == item.id
         });
-        //console.log(zipDistrict)
+        ////console.logzipDistrict)
 
         setSchooldata({
             ...schooldata, [e.target.name]: zipDistrict[0].name_th,
@@ -143,8 +143,8 @@ const EditstudentdataComponent = () => {
     const history = useNavigate();
     const submitStudentdata = (e) => {
         e.preventDefault();
-        //console.log(studentdata)
-        //console.log(school_data)
+        ////console.logstudentdata)
+        ////console.logschool_data)
         axios.put(`${process.env.REACT_APP_API}/updatestudent/${params.idcard}`, {
             stdidcard, sex, f_name, l_name, birthday, ethnicity, nationality, religion, parent, relevant, stdid, term, grade, room, no, schoolid, thainame, engname, address, province, amphure, district, zipcode, geography
         },
