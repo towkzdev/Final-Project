@@ -27,7 +27,7 @@ function Navbartop() {
     //console.log("lname" , lname)
     const username = localStorage.username
     const schoolid = localStorage.schoolid
-    console.log(username)
+   // console.log(username)
     const teacherdata = (username) => {
 
         history(`/teacherdata/${username}`)
