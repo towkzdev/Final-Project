@@ -117,7 +117,7 @@ const ScreenningForm = () => {
                     <br />
                     <br />
                     <CheckboxInput
-                      value="มีปัญหาพฤติกรรมเสี่ยงในวัยรุ่น"
+                      value="ไม่พบปัญหาข้างต้น"
                       checked={risk}
                       setter={setRisk}
                     />
