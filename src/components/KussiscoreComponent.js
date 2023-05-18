@@ -100,7 +100,7 @@ const KussiscoreComponent = () => {
           text: "บันทึกสำเร็จ",
           confirmButtonColor: "#2D7F55",
         });
-        history(`/kussi-Score/${stdidcard}/${schoolyear}/${term}`);
+        history(`/contact`);
       })
       .catch((err) => {
         Swal.fire({
