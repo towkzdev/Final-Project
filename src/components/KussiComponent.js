@@ -15,17 +15,40 @@ const KussiComponent = () => {
   useEffect(() => {
     axios
       .get(`${process.env.REACT_APP_API}/studentdata/${params.idcard}`,
-      {
-        headers: {
-          authtoken,
-        }
-      } )
+        {
+          headers: {
+            authtoken,
+          }
+        })
       .then((response) => {
         setContact(response.data);
       })
       .catch((err) => alert(err));
   }, [params]);
-  ////console.logcontact)
+  //console.log(contact)
+
+  const username = localStorage.username
+ // console.log(username)
+  const [teacher, setTeacher] = useState('')
+  useEffect(() => {
+    axios
+      .get(`${process.env.REACT_APP_API}/teacheruser/${username}`,
+        {
+          headers: {
+            authtoken,
+          }
+        })
+      .then((response) => {
+        setTeacher(response.data);
+      })
+      .catch((err) => alert(err));
+  }, [params]);
+ console.log(teacher)
+
+const t_fname = teacher.t_fname
+const t_lname = teacher.t_lname
+const schoolname  = teacher.schoolname
+
   const schoolid = contact.schoolid
   const age = contact.birthday;
   const birthday = moment(age).format("DD-MM-YYYY");
@@ -36,7 +59,7 @@ const KussiComponent = () => {
   const birthday2 = moment(age).format("MM");
   //console.logstdage + birthday2)
 
-  
+
 
   const std_name = contact.f_name + "   " + contact.l_name;
   ////console.logstd_name);
@@ -72,7 +95,7 @@ const KussiComponent = () => {
       tname2: tname2,
       subject2: subject2,
       school: school,
-      schoolid:schoolid,
+      schoolid: schoolid,
       district: district,
       province: province,
       date_now: date_now,
@@ -92,11 +115,11 @@ const KussiComponent = () => {
     axios.post(`${process.env.REACT_APP_API}/kussi/${params.idcard}`, {
       section1, section2, section3
     },
-    {
-      headers: {
-        authtoken,
-      }
-    })
+      {
+        headers: {
+          authtoken,
+        }
+      })
       .then((response) => {
         Swal.fire({
           icon: "success",
@@ -121,14 +144,14 @@ const KussiComponent = () => {
     date_now2: "",
     schoolyear: "",
     term: "",
-    tname:"",
-    tname2:"",
-    school:"",
-    district:"",
-    province:"",
+    tname: "",
+    tname2: "",
+    school: "",
+    district: "",
+    province: "",
   })
 
-  const { date_now, date_now2, schoolyear, term , tname , tname2 , school , district ,province} = state
+  const { date_now, date_now2, schoolyear, term, tname, tname2, school, district, province } = state
   //กำหนดค่าให้กับstate การประกาศฟังก์ชันซ้อนฟังก์ชัน 2รูปแบบ
   //name check ค่า ชื่อในstate //eventค่าเหตุการณ์ที่เกิดขึ้น
 
@@ -151,7 +174,7 @@ const KussiComponent = () => {
                   >  ส่วนที่ 1 : ข้อมูลผู้ตอบแบบคัดกรอง
                   </h5>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label> ชื่อผู้ตอบแบบคัดกรอง <input type="text" placeholder="(ชื่อผู้ตอบแบบคัดกรอง)" value={tname} onChange={inputValue("tname")}  style={{ width: "350px" }} /></Form.Label>  <br />
+                    <Form.Label> ชื่อผู้ตอบแบบคัดกรอง <input type="text" placeholder="(ชื่อผู้ตอบแบบคัดกรอง)" value={t_fname +"   " + t_lname} onChange={inputValue("tname")} style={{ width: "350px" }} required /></Form.Label>  <br />
                     <RadioInput value="ภาษาไทย" checked={subject} setter={setSubject} />  ภาษาไทย
                     <RadioInput value="คณิตศาสตร์" checked={subject} setter={setSubject} />  คณิตศาสตร์  <br /><br />
 
@@ -159,12 +182,12 @@ const KussiComponent = () => {
                     <RadioInput value="ภาษาไทย" checked={subject2} setter={setSubject2} />  ภาษาไทย
                     <RadioInput value="คณิตศาสตร์" checked={subject2} setter={setSubject2} />  คณิตศาสตร์  <br /> <br />
 
-                    <Form.Label>ชื่อโรงเรียน<input type="text" placeholder="(ชื่อโรงเรียน)" value={school} onChange={inputValue("school")} /></Form.Label><br /><br />
+                    <Form.Label>ชื่อโรงเรียน<input type="text" placeholder="(ชื่อโรงเรียน)" value={schoolname} onChange={inputValue("school")} /></Form.Label><br /><br />
                     <Form.Label> อำเภอ <input type="text" placeholder="(ชื่ออำเภอ)" value={district} onChange={inputValue("district")} />
                     </Form.Label> <Form.Label>จังหวัด<input type="text" placeholder="(ชื่อจังหวัด)" value={province} onChange={inputValue("province")} />  </Form.Label> <br />  <br />
-                    <Form.Label>วันที่ตอบแบบคัดกรอง<input type="date" value={date_now} onChange={inputValue("date_now")} style={{ width: "180px", padding: "2px 25px" }} /></Form.Label>  <br /><br />
-                    <Form.Label>ปีการศึกษา<input type="text" value={schoolyear} onChange={inputValue("schoolyear")} style={{ width: "100px", padding: "2px 25px" }} /></Form.Label> &nbsp;
-                    <Form.Label>ภาคเรียนที่<input type="text" value={term} onChange={inputValue("term")} style={{ width: "50px", padding: "2px 15px" }} /></Form.Label>
+                    <Form.Label>วันที่ตอบแบบคัดกรอง<input type="date" value={date_now} onChange={inputValue("date_now")} style={{ width: "180px", padding: "2px 25px" }} required/></Form.Label>  <br /><br />
+                    <Form.Label>ปีการศึกษา<input type="text" value={schoolyear} onChange={inputValue("schoolyear")} style={{ width: "100px", padding: "2px 25px" }} required/></Form.Label> &nbsp;
+                    <Form.Label>ภาคเรียนที่<input type="text" value={term} onChange={inputValue("term")} style={{ width: "50px", padding: "2px 15px" }} required/></Form.Label>
                   </Form.Group>
                 </div>
               </div>
@@ -208,7 +231,7 @@ const KussiComponent = () => {
                   >  ส่วนที่ 3 : อายุนักเรียน
                   </h5>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label> วันที่ตอบแบบคัดกรอง <input type="date" value={date_now2} onChange={inputValue("date_now2")} style={{ width: "180px", padding: "2px 25px" }} /> </Form.Label> <br /><br />
+                    <Form.Label> วันที่ตอบแบบคัดกรอง <input type="date" value={date_now2} onChange={inputValue("date_now2")} style={{ width: "180px", padding: "2px 25px" }} required/> </Form.Label> <br /><br />
                     <Form.Label> วันเกิดของนักเรียน <input type="text" placeholder="(ว/ด/ป)" value={birthday} readOnly />  </Form.Label>  <br />  <br />
                     <Form.Label> อายุ <input type="text" placeholder="อายุ" value={stdage} readOnly />  </Form.Label>  <br />  <br />
                   </Form.Group>
