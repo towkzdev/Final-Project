@@ -89,8 +89,9 @@ const schoolname  = teacher.schoolname
 
 
     const idcard = contact.stdidcard;
+    const t_fullname = t_fname +"   " + t_lname
     const section1 = {
-      tname: tname,
+      tname: t_fullname,
       subject: subject,
       tname2: tname2,
       subject2: subject2,
