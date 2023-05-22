@@ -36,7 +36,7 @@ const EditstudentdataComponent = () => {
     const [tambon, setTambon] = useState([]);
 
     const fetchData = () => {
-        axios.get(`http://localhost:5500/province`)
+        axios.get(`${process.env.REACT_APP_API}/province`)
             .then((response) => {
                 setProvi(response.data);
             })
@@ -98,7 +98,7 @@ const EditstudentdataComponent = () => {
         setSchooldata({ ...schooldata, [e.target.name]: lable })
 
         const id2 = (Number(e.target.value))
-        axios.get(`http://localhost:5500/province/${id2}/amphure`)
+        axios.get(`${process.env.REACT_APP_API}/province/${id2}/amphure`)
             .then((response) => {
                 setAmphure2(response.data)
             })
@@ -113,7 +113,7 @@ const EditstudentdataComponent = () => {
         setSchooldata({ ...schooldata, [e.target.name]: lable })
 
         const id3 = (Number(e.target.value))
-        axios.get(`http://localhost:5500/province/amphure/${id3}`)
+        axios.get(`${process.env.REACT_APP_API}/province/amphure/${id3}`)
             .then((response) => {
                 setTambon(response.data)
             })
